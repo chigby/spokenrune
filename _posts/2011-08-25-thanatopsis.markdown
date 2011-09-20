@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Thanatopsis
+author: William Cullen Bryant
 mp3_url: http://nullsurface.com/audio/thanatopsis.mp3
 image_url: http://farm6.static.flickr.com/5048/5380890372_c2baffd42b_z.jpg
 ---
