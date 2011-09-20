@@ -1,0 +1,11 @@
+---
+layout: post
+title: Bog Queen
+author: Seamus Heaney
+mp3_url: http://nullsurface.com/audio/bog-queen.mp3
+image_url: http://farm3.static.flickr.com/2485/3745093761_190c0716ba_o.jpg
+---
+
+_Bog Queen_.  Seamus Heaney.  1975.
+
+[Photography source](http://www.flickr.com/photos/loesenlodewijk/3745093761/sizes/o/in/photostream/).
