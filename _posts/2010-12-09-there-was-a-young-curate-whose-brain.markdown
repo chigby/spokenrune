@@ -7,5 +7,3 @@ image_url: http://farm5.static.flickr.com/4114/4909038750_be35fdbaa0_z.jpg
 ---
 
 Edward Gorey.  1954.
-
-[Photography source]().
