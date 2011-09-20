@@ -1,0 +1,14 @@
+---
+layout: post
+title: The Tempest
+excerpt: true
+author: William Shakespeare
+published: 1610-11
+mp3_url: http://nullsurface.com/audio/bee-sucks.mp3
+image_url: http://farm4.static.flickr.com/3595/3510711357_8e41d25d43_z.jpg
+photo_source_url: http://www.flickr.com/photos/25677792@N05/3510711357/lightbox/
+---
+
+from _The Tempest_.  William Shakespeare.  1610-11.
+
+[Photography source](http://www.flickr.com/photos/25677792@N05/3510711357/lightbox/)
