@@ -11,9 +11,9 @@ title: The Spoken Rune
 </ol>
 
 {% for post in site.posts limit:1 %}
-<div>
+<article>
   <p><a href="{{ post.mp3_url }}">Download</a>.</p>
   <p><img src="{{ post.image_url }}" /></p>
   {{ post.content }}
-</div>
+</article>
 {% endfor %}
