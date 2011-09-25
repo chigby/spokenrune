@@ -8,4 +8,4 @@ image_url: http://farm4.static.flickr.com/3015/2301570002_2e88cfc610.jpg
 
 _Border Lake_.  John Montague.  1984.
 
-[Photography source]().
+Photo by [Karim Rezk](http://www.flickr.com/photos/krezk/2301570002/).

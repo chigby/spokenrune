@@ -8,4 +8,4 @@ image_url: http://www.gutenberg.org/files/20249/20249-h/images/ill-0034.jpg
 
 _Lyonesse_.  Alan Seeger.  1916.
 
-[Photography source]().
+Art from [Legend Land, Volume II](http://www.gutenberg.org/files/20249/20249-h/20249-h.htm).
