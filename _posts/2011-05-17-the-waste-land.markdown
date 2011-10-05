@@ -2,7 +2,7 @@
 layout: post
 title: The Waste Land (excerpt)
 author: T. S. Eliot
-mp3_url: http://nullsurface.com/audio/the-waste-land.mp3
+mp3_url: http://nullsurface.com/audio/water-rock.mp3
 image_url: http://farm4.static.flickr.com/3588/3357403578_ff72ba9407_z.jpg
 ---
 
