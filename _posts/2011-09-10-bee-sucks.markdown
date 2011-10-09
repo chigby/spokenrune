@@ -2,7 +2,7 @@
 layout: post
 title: The Tempest (excerpt)
 author: William Shakespeare
-mp3_url: http://nullsurface.com/audio/bee-sucks.mp3
+mp3_url: https://s3.amazonaws.com/spokenrune/tempest-where-the-bee-sucks.mp3
 image_url: http://farm4.static.flickr.com/3595/3510711357_8e41d25d43_z.jpg
 ---
 

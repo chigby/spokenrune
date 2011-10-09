@@ -2,7 +2,7 @@
 layout: post
 title: Theogony (excerpt)
 author: Hesiod
-mp3_url: http://nullsurface.com/audio/theogony-night.mp3
+mp3_url: https://s3.amazonaws.com/spokenrune/theogony-night.mp3
 image_url: http://nullsurface.com/images/theogony-night.png
 ---
 

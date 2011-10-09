@@ -2,7 +2,7 @@
 layout: post
 title: Lyonesse
 author: Alan Seeger
-mp3_url: http://nullsurface.com/audio/lyonesse.mp3
+mp3_url: https://s3.amazonaws.com/spokenrune/lyonesse.mp3
 image_url: http://www.gutenberg.org/files/20249/20249-h/images/ill-0034.jpg
 ---
 

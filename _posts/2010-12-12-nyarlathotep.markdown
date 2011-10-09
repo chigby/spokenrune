@@ -2,7 +2,7 @@
 layout: post
 title: Nyarlathotep
 author: H. P. Lovecraft
-mp3_url: http://nullsurface.com/audio/nyarlathotep.mp3
+mp3_url: https://s3.amazonaws.com/spokenrune/nyarlathotep.mp3
 image_url: http://farm1.static.flickr.com/40/120749218_f28cdb61d8_z.jpg
 ---
 

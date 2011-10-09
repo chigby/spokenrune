@@ -2,7 +2,7 @@
 layout: post
 title: Bog Queen
 author: Seamus Heaney
-mp3_url: http://nullsurface.com/audio/bog-queen.mp3
+mp3_url: https://s3.amazonaws.com/spokenrune/bog-queen.mp3
 image_url: http://farm3.static.flickr.com/2485/3745093761_190c0716ba_o.jpg
 ---
 
