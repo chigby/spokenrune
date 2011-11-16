@@ -1,0 +1,12 @@
+---
+layout: post
+title: The Cats
+author: H. P. Lovecraft
+mp3_url:
+image_url: http://farm2.static.flickr.com/1080/586719992_6946eb6d8e_z.jpg
+---
+
+_The Cats_.  H. P. Lovecraft.  1977.
+
+Photo by [Leonardo Sagnotti](http://www.flickr.com/photos/leosagnotti/586719992/).
+

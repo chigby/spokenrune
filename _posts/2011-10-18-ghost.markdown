@@ -1,0 +1,12 @@
+---
+layout: post
+title: Ghost
+author: Mary O'Malley
+mp3_url: https://s3.amazonaws.com/spokenrune/ghost.mp3
+image_url: http://farm4.static.flickr.com/3606/3390162697_befdc6a4aa_z.jpg
+---
+
+_Ghost_.  Mary O'Malley.  1993.
+
+Photo by [Matthew Rudledge](http://www.flickr.com/photos/rutlo/3390162697/).
+
