@@ -2,7 +2,7 @@
 layout: post
 title: The Cats
 author: H. P. Lovecraft
-mp3_url:
+mp3_url: https://s3.amazonaws.com/spokenrune/the-cats.mp3
 image_url: http://farm2.static.flickr.com/1080/586719992_6946eb6d8e_z.jpg
 ---
 
