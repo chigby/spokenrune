@@ -6,6 +6,7 @@ title: The Spoken Rune
 {% for post in site.posts limit:1 %}
 <article>
   <p><a href="{{ post.mp3_url }}">Download</a>.</p>
+  <audio src="{{ post.mp3_url }}" controls></audio>
   <p><img src="{{ post.image_url }}" /></p>
   {{ post.content }}
 </article>
