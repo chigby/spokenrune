@@ -2,7 +2,7 @@
 layout: post
 title: The Whirlpool
 author: Edward Plunkett, 18th Lord Dunsany
-mp3_url: https://s3.amazonaws.com/spokenrune/the-whirlpool.mp3
+filename: the-whirlpool
 image_url: http://farm1.staticflickr.com/92/278918182_18496610d3_z.jpg
 ---
 

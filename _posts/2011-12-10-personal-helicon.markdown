@@ -2,7 +2,7 @@
 layout: post
 title: Personal Helicon
 author: Seamus Heaney
-mp3_url: https://s3.amazonaws.com/spokenrune/personal-helicon.mp3
+filename: personal-helicon
 image_url: http://farm5.staticflickr.com/4033/4694049916_358bcbe578_z.jpg
 ---
 

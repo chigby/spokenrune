@@ -2,7 +2,7 @@
 layout: post
 title: Questions in the Vestibule
 author: Rachel Hadas
-mp3_url: https://s3.amazonaws.com/spokenrune/questions-in-the-vestibule.mp3
+filename: questions-in-the-vestibule
 image_url: http://nullsurface.com/images/muybridge.png
 ---
 

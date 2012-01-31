@@ -2,7 +2,7 @@
 layout: post
 title: To His Clubfooted Child Said Lord Stipple
 author: Edward Gorey
-mp3_url: https://s3.amazonaws.com/spokenrune/to-his-clubfooted-child.mp3
+filename: to-his-clubfooted-child
 image_url: http://farm5.static.flickr.com/4018/4669225269_79496bde94_o.jpg
 ---
 

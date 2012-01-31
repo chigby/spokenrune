@@ -2,7 +2,7 @@
 layout: post
 title: On Love, On Grief
 author: Walter Savage Landor
-mp3_url: https://s3.amazonaws.com/spokenrune/on-love-on-grief.mp3
+filename: on-love-on-grief
 image_url: http://farm3.static.flickr.com/2544/3946696978_a6b9041826_z.jpg
 ---
 

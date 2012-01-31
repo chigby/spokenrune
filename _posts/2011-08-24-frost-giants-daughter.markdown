@@ -2,7 +2,7 @@
 layout: post
 title: The Frost Giant's Daughter
 author: Robert E. Howard
-mp3_url: https://s3.amazonaws.com/spokenrune/frost-giants-daughter.mp3
+filename: frost-giants-daughter
 image_url: http://farm3.static.flickr.com/2117/2273193262_eaffb96e33_z.jpg?zz=1
 ---
 

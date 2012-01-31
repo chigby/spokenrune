@@ -2,7 +2,7 @@
 layout: post
 title: Welcome To All The Pleasures
 author: Ernest Hilbert
-mp3_url: https://s3.amazonaws.com/spokenrune/welcome-to-all-the-pleasures.mp3
+filename: welcome-to-all-the-pleasures
 image_url: http://farm2.staticflickr.com/1044/1448438973_8924e9a3e2_z.jpg?zz=1
 ---
 

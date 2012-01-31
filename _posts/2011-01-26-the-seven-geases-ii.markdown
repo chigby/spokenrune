@@ -2,7 +2,7 @@
 layout: post
 title: The Seven Geases, Part II
 author: Clark Ashton Smith
-mp3_url: https://s3.amazonaws.com/spokenrune/seven-geases-2.mp3
+filename: seven-geases-2
 image_url: http://farm1.static.flickr.com/121/294884287_0ccaf8d673_z.jpg
 ---
 

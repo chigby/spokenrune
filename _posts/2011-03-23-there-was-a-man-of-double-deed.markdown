@@ -2,7 +2,7 @@
 layout: post
 title: There Was a Man of Double Deed
 author: Anonymous
-mp3_url: https://s3.amazonaws.com/spokenrune/double-deed.mp3
+filename: double-deed
 image_url: http://nullsurface.com/images/double-deed.jpg
 ---
 

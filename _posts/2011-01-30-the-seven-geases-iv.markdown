@@ -2,7 +2,7 @@
 layout: post
 title: The Seven Geases, Part IV
 author: Clark Ashton Smith
-mp3_url: https://s3.amazonaws.com/spokenrune/seven-geases-4.mp3
+filename: seven-geases-4
 image_url: http://farm4.static.flickr.com/3457/3741827181_67c9b2b7e6_z.jpg
 ---
 

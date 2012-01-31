@@ -2,7 +2,7 @@
 layout: post
 title: The Insect God
 author: Edward Gorey
-mp3_url: https://s3.amazonaws.com/spokenrune/the-insect-god.mp3
+filename: the-insect-god
 image_url: http://farm3.static.flickr.com/2024/1905911524_a50e59bfee_z.jpg
 ---
 

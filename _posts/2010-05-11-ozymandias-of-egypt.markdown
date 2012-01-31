@@ -2,7 +2,7 @@
 layout: post
 title: Ozymandias of Egypt
 author: Percy Bysshe Shelley
-mp3_url: https://s3.amazonaws.com/spokenrune/ozymandias.mp3
+filename: ozymandias
 image_url: http://nullsurface.com/images/ozymandias.jpg
 ---
 

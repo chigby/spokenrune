@@ -2,7 +2,7 @@
 layout: post
 title: The Drowning
 author: Adrian Rice
-mp3_url: https://s3.amazonaws.com/spokenrune/the-drowning.mp3
+filename: the-drowning
 image_url: http://farm4.static.flickr.com/3021/2942060233_1d343a9397_z.jpg?zz=1
 ---
 

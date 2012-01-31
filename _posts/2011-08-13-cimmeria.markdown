@@ -2,7 +2,7 @@
 layout: post
 title: Cimmeria
 author: Robert E. Howard
-mp3_url: https://s3.amazonaws.com/spokenrune/cimmeria.mp3
+filename: cimmeria
 image_url: http://farm1.static.flickr.com/46/185210773_679e0a09b8_z.jpg?zz=1
 ---
 

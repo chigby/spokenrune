@@ -2,7 +2,7 @@
 layout: post
 title: Ode to a Nightingale
 author: John Keats
-mp3_url: https://s3.amazonaws.com/spokenrune/ode-to-a-nightingale.mp3
+filename: ode-to-a-nightingale
 image_url: http://farm3.static.flickr.com/2612/4326049602_5a8242c0e3_z.jpg?zz=1
 ---
 

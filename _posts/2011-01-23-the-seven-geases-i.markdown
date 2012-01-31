@@ -2,7 +2,7 @@
 layout: post
 title: The Seven Geases, Part I
 author: Clark Ashton Smith
-mp3_url: https://s3.amazonaws.com/spokenrune/seven-geases-1.mp3
+filename: seven-geases-1
 image_url: http://farm4.static.flickr.com/3551/3465761670_9340426615_z.jpg
 ---
 

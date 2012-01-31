@@ -2,7 +2,7 @@
 layout: post
 title: The Curse of the Golden Skull
 author: Robert E. Howard
-mp3_url: https://s3.amazonaws.com/spokenrune/curse-golden-skull.mp3
+filename: curse-golden-skull
 image_url: http://farm5.static.flickr.com/4077/4912970584_f361079f0a_z.jpg
 ---
 
