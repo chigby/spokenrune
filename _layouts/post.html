@@ -3,8 +3,7 @@ layout: default
 ---
 
 <article>
-  <p><a href="{{ page.mp3_url }}">Download</a>.</p>
-  <audio src="{{ page.mp3_url }}" controls></audio>
+  <p class="download"><a href="https://s3.amazonaws.com/spokenrune/{{ page.filename }}.mp3">Download</a>.</p>
 
   <p><img alt="{{ page.title  }} Image" src="{{ page.image_url }}" /></p>
 
