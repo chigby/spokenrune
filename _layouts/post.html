@@ -8,4 +8,11 @@ layout: default
   <p><img alt="{{ page.title }} Image" src="{{ page.image_url }}" /></p>
 
   {{ content }}
+
+  <script type="text/javascript">
+    $(document).ready( function () {
+    createPlayer("{{ page.filename }}") // Inside the anonymous function we are cool.
+    });
+
+  </script>
 </article>
