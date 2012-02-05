@@ -1,5 +1,18 @@
+function checkUpdate(currentTime, oldTime, cues) {
+    var art = $("#art");
+    var timeIndex;
+    for (timeIndex in cues) {
+        if (currentTime > timeIndex && oldTime < timeIndex) {
+            var _timeIndex = timeIndex;
+            art.fadeOut('slow', function() {
+                $(this).html(cues[_timeIndex]).fadeIn('slow');
+            });
+        }
+    }
+}
+
 var createPlayer =
-    function(filename) {
+    function(filename, cues) {
         var supportsAudio = !!document.createElement('audio').canPlayType,
 	audio,
 	loadingIndicator,
@@ -36,14 +49,18 @@ var createPlayer =
             } else {
                 loadingIndicator.remove();
             }
+            var oldTime = 0;
             $(audio).bind('timeupdate', function() {
 
                 var rem = parseInt(audio.duration - audio.currentTime, 10),
                 pos = (audio.currentTime / audio.duration) * 100,
                 mins = Math.floor(rem / 60,10),
-                secs = rem - mins * 60;
+                secs = rem - mins * 60,
+                newTime = audio.currentTime;
 
                 timeleft.text('-' + mins + ':' + (secs > 9 ? secs : '0' + secs));
+                checkUpdate(audio.currentTime, oldTime, cues);
+
                 if (!manualSeek) { positionIndicator.css({left: pos + '%'}); }
                 if (!loaded) {
                     loaded = true;
@@ -64,7 +81,7 @@ var createPlayer =
                         }
                     });
                 }
-
+                oldTime = audio.currentTime;
             });
 
             $(audio).bind('play',function() {

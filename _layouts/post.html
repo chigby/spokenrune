@@ -5,13 +5,19 @@ layout: default
 <article>
   <p class="download"><a href="https://s3.amazonaws.com/spokenrune/{{ page.filename }}.mp3">Download</a>.</p>
 
-  <p><img alt="{{ page.title }} Image" src="{{ page.image_url }}" /></p>
+  <p id="art"><img alt="{{ page.title }} Image" src="{{ page.image_url }}" /></p>
 
   {{ content }}
 
   <script type="text/javascript">
     $(document).ready( function () {
-    createPlayer("{{ page.filename }}") // Inside the anonymous function we are cool.
+    var cues = {
+    {% for cue in page.cues %}
+        '{{cue[0]}}': '{{cue[1]}}',
+    {% endfor %}
+    }
+
+    createPlayer("{{ page.filename }}", cues) // Inside the anonymous function we are cool.
     });
 
   </script>
