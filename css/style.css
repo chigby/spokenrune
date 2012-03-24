@@ -117,12 +117,18 @@ svg:not(:root) { overflow: hidden; }
     background-repeat: no-repeat;
 }
 
-nav {float:left; width:350px;}
+nav {
+    float: left;
+    width: 350px;
+}
 
-article {float: left; width:640px;}
+article {
+    float: left;
+    width: 640px;
+}
 
 header a {
-    margin-left:19%;
+    margin-left: 19%;
 }
 
 .circle-logo {
@@ -131,8 +137,8 @@ header a {
 
 .art {
     -webkit-border-image: url(/img/frame.png) 55 45 45 45 round;
-    border-width:50px;
-    width:500px;
+    border-width: 50px;
+    width: 500px;
 }
 
 .download {
