@@ -36,7 +36,7 @@ var createPlayer =
 <source src="' + mp3path + '" type="audio/mpeg"></source>\
 </audio></p>';
 
-            $(player).insertAfter(".download");
+            $(player).insertBefore(".download");
             audio = $('.player audio').get(0);
             loadingIndicator = $('.player #loading');
             positionIndicator = $('.player #handle');
