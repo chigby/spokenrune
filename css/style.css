@@ -162,11 +162,11 @@ header a {
 #playtoggle {
     position: relative;
     display: block;
-    top: 9px;
-    left: 10px;
-    width: 30px;
-    height: 30px;
-    background: url(/img/player.png) no-repeat -30px 0;
+    top: 16px;
+    left: 21px;
+    width: 50px;
+    height: 50px;
+    background: url(/img/player-dingbats-40.png) no-repeat -64px 0;
     cursor: pointer;
 }
 
@@ -233,11 +233,11 @@ header a {
 
 #handle {
 	position: absolute;
-	top: -5px;
-	left: 0;
-	width: 20px;
-	height: 20px;
+	top: -18px;
+	left: -11px;
+	width: 50px;
+	height: 50px;
 	margin-left: -10px;
-	background: url(../img/player.png) no-repeat -65px -5px;
+	background: url(/img/player-dingbats-40.png) no-repeat -133px -5px;
 	cursor: pointer;
 }
