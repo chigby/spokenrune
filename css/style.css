@@ -181,15 +181,13 @@ header a {
 #timeleft {
 	line-height: 48px;
 	position: relative;
-	top: -40px;
-	/* right: 0; */
-        left:320px;
+	top: -20px;
+        left: 357px;
 	width: 50px;
 	text-align: center;
 	font-size: 11px;
 	font-weight: bold;
-	color: #fff;
-	text-shadow: 0 1px 0 #546374;
+	color: #333;
 }
 
 #wrapper #timeleft {
