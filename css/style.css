@@ -140,6 +140,11 @@ header a {
     padding-right: 37%;
 }
 
+.info {
+    font-family: serif;
+    font-size: 150%;
+}
+
 .inscriptions {
     margin-top: 20px;
 }
