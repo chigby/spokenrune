@@ -3,11 +3,16 @@ layout: default
 ---
 
 <article>
-  <p class="download"><a href="https://s3.amazonaws.com/spokenrune/{{ page.filename }}.mp3">Download</a>.</p>
+  <p class="download">
+    <a href="https://s3.amazonaws.com/spokenrune/{{ page.filename }}.mp3">
+      <img src="/img/download.png">
+    </a>
+  </p>
 
   <p id="art"><img alt="{{ page.title }} Image" src="{{ page.image_url }}" /></p>
 
   {{ content }}
+  <img class="circle-logo" src="/img/logo.png">
 
   <script type="text/javascript">
     $(document).ready( function () {

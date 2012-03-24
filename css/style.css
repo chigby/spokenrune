@@ -108,12 +108,41 @@ svg:not(:root) { overflow: hidden; }
    Author: Cameron Higby-Naquin
    ========================================================================== */
 
-#main {width: 990px; margin:0 auto;}
+#main {
+    width: 990px;
+    margin: 0 auto;
+    padding-left: 55px;
+    padding-top: 61px;
+    background-image: url(/img/background.png);
+    background-repeat: no-repeat;
+}
 
 nav {float:left; width:350px;}
 
 article {float: left; width:640px;}
 
+header a {
+    margin-left:19%;
+}
+
+.circle-logo {
+    margin:0 auto;
+}
+
+.art {
+    -webkit-border-image: url(/img/frame.png) 55 45 45 45 round;
+    border-width:50px;
+    width:500px;
+}
+
+.download {
+    text-align: right;
+    padding-right: 37%;
+}
+
+.inscriptions {
+    margin-top: 20px;
+}
 
 .player {
 	display: block;

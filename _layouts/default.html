@@ -13,10 +13,12 @@
 
 <body>
   <div id="main">
-    <a href="/"><h1>The Spoken Rune</h1></a>
+    <header>
+    <a class="logo" href="/"><img src="/img/tsr.png"></a>
+    </header>
     <nav>
-      <h2>Inscriptions</h2>
-      <ol>
+      <img src="/img/inscriptions.png">
+      <ol class="inscriptions">
         {% for post in site.posts %}
         <li><a href="{{ post.url }}">{{ post.title }}</a> {{ post.author }}</li>
         {% endfor %}
