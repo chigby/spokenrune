@@ -155,23 +155,8 @@ header a {
 }
 
 .player {
-	display: block;
-	height: 48px;
-	width: 400px;
-	/* position: absolute; */
-	top: 349px;
-	left: -1px;
-	-webkit-box-shadow: 0 -1px 0 rgba(20, 30, 40, .75);
-	-moz-box-shadow: 0 -1px 0 rgba(20, 30, 40, .75);
-	-o-box-shadow: 0 -1px 0 rgba(20, 30, 40, .75);
-	box-shadow: 0 -1px 0 rgba(20, 30, 40, .75);
-	border-top: 1px solid #c2cbd4;
-	border-bottom: 1px solid #283541;
-	background: #939eaa;
-	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgba(174, 185, 196, .9)), to(rgba(110, 124, 140, .9)), color-stop(.5, rgba(152, 164, 176, .9)),color-stop(.501, rgba(132, 145, 159, .9)));
-	background: -moz-linear-gradient(top, rgba(174, 185, 196, .9), rgba(152, 164, 176, .9) 50%, rgba(132, 145, 159, .9) 50.1%, rgba(110, 124, 140, .9));
-	background: linear-gradient(top, rgba(174, 185, 196, .9), rgba(152, 164, 176, .9) 50%, rgba(132, 145, 159, .9) 50.1%, rgba(110, 124, 140, .9));
-	cursor: default;
+    cursor: default;
+    background: url(/img/player-40.png) no-repeat;
 }
 
 #playtoggle {
