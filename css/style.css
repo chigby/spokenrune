@@ -107,12 +107,16 @@ svg:not(:root) { overflow: hidden; }
    Author: Cameron Higby-Naquin
    ========================================================================== */
 
+body {
+    background-color:#000;
+}
+
 #main {
-    width: 990px;
+    width: 1095px;
     margin: 0 auto;
-    padding-left: 55px;
-    padding-top: 61px;
-    background-image: url(/img/background.png);
+    padding-left: 10px;
+    padding-top: 10px;
+    background-image: url(/img/bg-transparent.png);
     background-repeat: no-repeat;
 }
 
