@@ -24,7 +24,7 @@ var createPlayer =
             var base_path = "https://s3.amazonaws.com/spokenrune/" + filename;
             var mp3path = base_path + '.mp3';
             var oggpath = base_path + '.ogg';
-            var player = '<p class="player">\
+            var player = '<div class="player">\
   <span id="playtoggle" />\
   <span id="gutter">\
     <span id="loading" />\
@@ -34,7 +34,7 @@ var createPlayer =
 <audio>\
 <source src="' + oggpath + '" type="audio/ogg"></source>\
 <source src="' + mp3path + '" type="audio/mpeg"></source>\
-</audio></p>';
+</audio></div>';
 
             $(player).insertBefore(".download");
             audio = $('.player audio').get(0);
