@@ -208,8 +208,8 @@ header a {
 	position: relative;
         display: block;
 	top: -1px;
-        width: 376px;
-	left: 111px;
+        width: 389px;
+	left: 100px;
 	right: 50px;
 	height: 6px;
 	padding: 2px;
@@ -242,9 +242,9 @@ header a {
 #handle {
 	position: absolute;
 	top: -18px;
-	left: -11px;
 	width: 50px;
 	height: 50px;
+        left: 0%;
 	margin-left: -10px;
 	background: url(/img/player-dingbats-40.png) no-repeat -133px -5px;
 	cursor: pointer;
