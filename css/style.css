@@ -122,10 +122,13 @@ body {
 
 nav {
     float: left;
-    width: 350px;
+    width: 340px;
+    margin-right:90px;
+    margin-top: 2em;
 }
 
 article {
+    margin-top: 2em;
     float: left;
     width: 640px;
 }
