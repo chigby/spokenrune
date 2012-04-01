@@ -182,70 +182,70 @@ header a {
 }
 
 #playtoggle.playing {
-	background-position: 0 0;
+    background-position: 0 0;
 }
 
 #playtoggle:active {
-	top: 10px;
+    top: 10px;
 }
 
 #timeleft {
-	line-height: 48px;
-	position: relative;
-        left: 490px;
-	width: 50px;
-	text-align: center;
-	font-size: 11px;
-	font-weight: bold;
-	color: #333;
+    line-height: 48px;
+    position: relative;
+    left: 490px;
+    width: 50px;
+    text-align: center;
+    font-size: 11px;
+    font-weight: bold;
+    color: #333;
 }
 
 #wrapper #timeleft {
-	right: 40px;
+    right: 40px;
 }
 
 #gutter {
-	position: relative;
-        display: block;
-	top: -1px;
-        width: 389px;
-	left: 100px;
-	right: 50px;
-	height: 6px;
-	padding: 2px;
+    position: relative;
+    display: block;
+    top: -1px;
+    width: 389px;
+    left: 100px;
+    right: 50px;
+    height: 6px;
+    padding: 2px;
 }
 
 #wrapper #gutter {
-	right: 90px;
+    right: 90px;
 }
 
 #loading {
-	background: #fff;
-	background: #939eaa;
-	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#eaeef1), to(#c7cfd8));
-	background: -moz-linear-gradient(top, #eaeef1, #c7cfd8);
-	background: linear-gradient(top, #eaeef1, #c7cfd8);
-	-webkit-box-shadow: 0 1px 0 #fff inset, 0 1px 0 #141e28;
-	-moz-box-shadow: 0 1px 0 #fff inset, 0 1px 0 #141e28;
-	-o-box-shadow: 0 1px 0 #fff inset, 0 1px 0 #141e28;
-	box-shadow: 0 1px 0 #fff inset, 0 1px 0 #141e28;
-	-webkit-border-radius: 3px;
-	-moz-border-radius: 3px;
-	-o-border-radius: 3px;
-	border-radius: 3px;
-	/* display: block; */
-	float: left;
-	min-width: 6px;
-	height: 6px;
+    background: #fff;
+    background: #939eaa;
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#eaeef1), to(#c7cfd8));
+    background: -moz-linear-gradient(top, #eaeef1, #c7cfd8);
+    background: linear-gradient(top, #eaeef1, #c7cfd8);
+    -webkit-box-shadow: 0 1px 0 #fff inset, 0 1px 0 #141e28;
+    -moz-box-shadow: 0 1px 0 #fff inset, 0 1px 0 #141e28;
+    -o-box-shadow: 0 1px 0 #fff inset, 0 1px 0 #141e28;
+    box-shadow: 0 1px 0 #fff inset, 0 1px 0 #141e28;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+    /* display: block; */
+    float: left;
+    min-width: 6px;
+    height: 6px;
 }
 
 #handle {
-	position: absolute;
-	top: -18px;
-	width: 50px;
-	height: 50px;
-        left: 0%;
-	margin-left: -10px;
-	background: url(/img/player-dingbats-40.png) no-repeat -133px -5px;
-	cursor: pointer;
+    position: absolute;
+    top: -18px;
+    width: 50px;
+    height: 50px;
+    left: 0%;
+    margin-left: -10px;
+    background: url(/img/player-dingbats-40.png) no-repeat -133px -5px;
+    cursor: pointer;
 }
