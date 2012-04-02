@@ -163,6 +163,8 @@ header a {
 }
 
 .info {
+    background: url(/img/logo.png) no-repeat;
+    height: 479px;
     font-family: serif;
     font-size: 150%;
 }
