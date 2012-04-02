@@ -154,6 +154,13 @@ header a {
     padding-right: 10%;
 }
 
+.extras {
+    padding-top: 20px;
+    padding-right:5px;
+    float:right;
+    width:100px;
+}
+
 .info {
     font-family: serif;
     font-size: 150%;
