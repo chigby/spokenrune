@@ -146,7 +146,8 @@ header a {
     -moz-border-image: url(/img/frame.png) 55 45 45 45 round;
     border-image: url(/img/frame.png) 55 45 45 45 round;
     border-width: 50px;
-    width: 500px;
+    max-width:500px;
+    max-height:450px;
 }
 
 .download {
