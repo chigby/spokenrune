@@ -1,10 +1,3 @@
-time
-
-
-time
-
-Tue Nov 15 20:52:30 2011
-
 ---
 layout: post
 title: After Filing
