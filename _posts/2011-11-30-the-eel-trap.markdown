@@ -3,7 +3,7 @@ layout: post
 title: The Eel-Trap
 author: Michael Longley
 filename: the-eel-trap
-image_url: http://farm7.staticflickr.com/6199/6059295728_9af4398bc2_o.jpg
+image_url: http://farm7.staticflickr.com/6199/6059295728_3ff9a203b5_n.jpg
 ---
 
 _The Eel-Trap_.  Michael Longley.  1994.
