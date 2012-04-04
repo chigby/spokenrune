@@ -169,6 +169,12 @@ header a {
     font-size: 150%;
 }
 
+.about {
+    padding-top:3em;
+    font-family: serif;
+    font-size: 150%;
+}
+
 .inscriptions {
     margin-top: 20px;
 }
