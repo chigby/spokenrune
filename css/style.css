@@ -165,13 +165,13 @@ header a {
 .info {
     background: url(/img/logo.png) no-repeat;
     height: 479px;
-    font-family: serif;
+    font-family: Palatino, serif;
     font-size: 150%;
 }
 
 .about {
     padding-top:3em;
-    font-family: serif;
+    font-family: Palatino, serif;
     font-size: 150%;
 }
 
