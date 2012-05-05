@@ -21,8 +21,10 @@ layout: nil
    <link href="http://spokenrune.com{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
    <id>http://spokenrune.com{{ post.id }}</id>
-   <content type="html">"{{ post.title | xml_escape }}" by {{ post.author | xml_escape }}&lt;br /&gt;&lt;br /&gt;
-   &lt;a href="https://s3.amazonaws.com/spokenrune/{{ post.filename }}.mp3"&gt;Download&lt;/a&gt;
+   <content type="html">
+     &lt;a href="http://s3.amazonaws.com/spokenrune/{{ post.filename }}.mp3"&gt;
+     "{{ post.title | xml_escape }}" by {{ post.author | xml_escape }}
+     &lt;/a&gt;
    </content>
  </entry>
  {% endfor %}
