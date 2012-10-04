@@ -4,6 +4,7 @@ title: Thanatopsis
 author: William Cullen Bryant
 filename: thanatopsis
 image_url: http://farm6.static.flickr.com/5048/5380890372_c2baffd42b_z.jpg
+duration: "5:27"
 ---
 
 _Thanatopsis_.  William Cullen Bryant.  1814, 1821.

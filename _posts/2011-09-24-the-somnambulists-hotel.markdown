@@ -4,6 +4,7 @@ title: The Somnambulists' Hotel
 author: Jack Anderson
 filename: somnambulists-hotel
 image_url: http://farm1.static.flickr.com/224/510782404_12fbbd8733_z.jpg
+duration: "3:53"
 ---
 
 _The Somnambulists' Hotel_.  Jack Anderson.  1992.

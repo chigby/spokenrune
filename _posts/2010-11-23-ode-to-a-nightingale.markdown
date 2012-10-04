@@ -4,6 +4,7 @@ title: Ode to a Nightingale
 author: John Keats
 filename: ode-to-a-nightingale
 image_url: http://farm3.static.flickr.com/2612/4326049602_5a8242c0e3_z.jpg?zz=1
+duration: "5:11"
 ---
 
 _Ode to a Nightingale_.  John Keats.  1819.

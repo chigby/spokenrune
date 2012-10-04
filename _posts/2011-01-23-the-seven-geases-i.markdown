@@ -4,6 +4,7 @@ title: The Seven Geases, Part I
 author: Clark Ashton Smith
 filename: seven-geases-1
 image_url: http://farm4.static.flickr.com/3551/3465761670_9340426615_z.jpg
+duration: "25:48"
 ---
 
 _The Seven Geases_.  Clark Ashton Smith.  1934.  Part I.
