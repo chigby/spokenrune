@@ -265,3 +265,31 @@ header a {
     background: url(/img/player-dingbats-40.png) no-repeat -133px -5px;
     cursor: pointer;
 }
+
+
+/* Footer */
+footer h2 {
+    font-weight:normal;
+}
+
+footer {
+    font-size: 1.2em;
+    font-family: Palatino, serif;
+    margin-top:60px;
+    color: #bbb;
+}
+
+footer a { color: LightBlue; }
+footer a:visited { color: #7997A1; }
+footer a:hover { color: #DFF7FE; }
+
+/* Gradient transparent - color - transparent */
+
+footer hr {
+    border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, rgba(255,255,255,0), rgba(255,255,255,0.75), rgba(255,255,255,0));
+    background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+}
