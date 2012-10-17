@@ -113,6 +113,7 @@ body {
 
 #main {
     width: 1095px;
+    height: 1475px;
     margin: 0 auto;
     padding-left: 10px;
     padding-top: 10px;
@@ -268,15 +269,18 @@ header a {
 
 
 /* Footer */
-footer h2 {
-    font-weight:normal;
-}
-
 footer {
     font-size: 1.2em;
     font-family: Palatino, serif;
-    margin-top:60px;
+    padding-bottom: 10px;
     color: #bbb;
+    margin: 0 auto;
+    width:1095px;
+    clear:both;
+}
+
+footer h2 {
+    font-weight:normal;
 }
 
 footer a { color: LightBlue; }
