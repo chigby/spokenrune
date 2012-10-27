@@ -287,6 +287,24 @@ footer a { color: LightBlue; }
 footer a:visited { color: #7997A1; }
 footer a:hover { color: #DFF7FE; }
 
+/* Table of Contents */
+
+.toc {
+    margin:0 auto;
+    width: 1050px;
+    font-family: Palatino, serif;
+    font-size: 115%;
+}
+
+.toc ol {
+    list-style-type: upper-roman;
+}
+
+.toc .inscriptions {
+    float: left;
+    width: 450px;
+}
+
 /* Gradient transparent - color - transparent */
 
 footer hr {
