@@ -9,4 +9,6 @@ duration: "3:05"
 
 _I Will Sing You One-O_.  Robert Frost.  1923.
 
+[Read the full text](http://www.ketzle.com/frost/singoneo.htm).
+
 Photo by [NASA Goddard Photo and Video](http://www.flickr.com/photos/gsfc/8246893143/in/set-72157632175125121/).
