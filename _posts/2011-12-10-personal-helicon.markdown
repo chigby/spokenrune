@@ -3,7 +3,7 @@ layout: post
 title: Personal Helicon
 author: Seamus Heaney
 filename: personal-helicon
-image_url: http://farm5.staticflickr.com/4033/4694049916_358bcbe578_z.jpg
+image_url: http://nullsurface.com/images/personal-helicon.jpg
 duration: "1:32"
 ---
 
