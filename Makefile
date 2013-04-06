@@ -3,8 +3,8 @@ serve:
 
 deploy-test:
 	jekyll
-	rsync -rtz --delete _site/ chigby@nullsurface.com:~/webapps/spokenrunetest
+	rsync -rtz --chmod=ugo=rwX --delete _site/ chigby@nullsurface.com:~/webapps/spokenrunetest
 
 deploy-production:
 	jekyll
-	rsync -rtz --delete _site/ chigby@nullsurface.com:~/webapps/spokenrune
+	rsync -rtz --chmod=ugo=rwX --delete _site/ chigby@nullsurface.com:~/webapps/spokenrune
