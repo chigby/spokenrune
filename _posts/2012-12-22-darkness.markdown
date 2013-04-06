@@ -3,7 +3,7 @@ layout: post
 title: Darkness
 author: George Gordon, Lord Byron
 filename: darkness
-image_url: http://farm1.staticflickr.com/225/502428800_a67b5f06db_z.jpg
+image_url: http://nullsurface.com/images/darkness.jpg
 duration: "7:05"
 ---
 
