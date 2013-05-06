@@ -1,10 +1,10 @@
 serve:
-	jekyll --auto --serve
+	jekyll serve --watch
 
 deploy-test:
-	jekyll
+	jekyll build
 	rsync -rtz --chmod=ugo=rwX --delete _site/ chigby@nullsurface.com:~/webapps/spokenrunetest
 
 deploy-production:
-	jekyll
+	jekyll build
 	rsync -rtz --chmod=ugo=rwX --delete _site/ chigby@nullsurface.com:~/webapps/spokenrune
