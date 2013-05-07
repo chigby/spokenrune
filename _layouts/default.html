@@ -5,7 +5,7 @@
 <head>
   <meta charset="utf-8">
   <link rel="stylesheet" href="/css/style.css">
-  <title>{{ page.title }}</title>
+  <title>{{ site.title }}: {{ page.title }} {% if page.author %} by {{ page.author }} {% endif %}</title>
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
   <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js"></script>
   <script defer src="/js/master.js"></script>
