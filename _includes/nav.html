@@ -1,0 +1,10 @@
+<nav>
+  <img src="/img/inscriptions.png">
+  <ol class="inscriptions">
+    {% for post in site.posts limit:70 %}
+    <li><a href="{{ post.url }}">{{ post.title | replace:"'","&#8217;" }}</a> {{ post.author | replace:"'","&#8217;" }}</li>
+    {% endfor %}
+  </ol>
+  <br/>
+  <i><a href="/toc.html">More inscriptions &#8230;</a></i>
+</nav>
