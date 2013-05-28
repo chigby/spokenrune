@@ -1,5 +1,17 @@
+sitedir       = _site
+
+produser   = chigby
+prodhost   = nullsurface.com
+proddir    = ~/webapps/spokenrune
+
+testuser   = $(produser)
+testhost   = $(prodhost)
+testdir    = ~/webapps/spokenrunetest
+
+switches = -rtz --chmod=ugo=rwX --delete
+
 clean:
-	rm -rf _site/*
+	rm -rf $(sitedir)/*
 
 serve: clean
 	jekyll serve --watch
@@ -12,14 +24,14 @@ test: build push-test
 deploy: build push-production
 
 push-test:
-	rsync -rtz --chmod=ugo=rwX --delete _site/ chigby@nullsurface.com:~/webapps/spokenrunetest
+	rsync $(switches) $(sitedir)/ $(testuser)@$(testhost):$(testdir)
 
 push-production:
 	@status=$$(git status --porcelain); \
         if test "x$${status}" = x; then \
-            rsync -rtz --chmod=ugo=rwX --delete _site/ chigby@nullsurface.com:~/webapps/spokenrune ; \
+            rsync $(switches) $(sitedir)/ $(produser)@$(prodhost):$(proddir) \
         else \
             echo Working directory is dirty >&2; \
         fi
 
-.PHONY: server deploy-production deploy-test
+.PHONY: clean
