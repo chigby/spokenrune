@@ -21,17 +21,21 @@ build: clean
 
 test: build push-test
 
-deploy: build push-production
+deploy: pristine build push-production
 
 push-test:
 	rsync $(switches) $(sitedir)/ $(testuser)@$(testhost):$(testdir)
 
 push-production:
+	rsync $(switches) $(sitedir)/ $(produser)@$(prodhost):$(proddir)
+
+pristine:
 	@status=$$(git status --porcelain); \
         if test "x$${status}" = x; then \
-            rsync $(switches) $(sitedir)/ $(produser)@$(prodhost):$(proddir) \
+            echo Repository status pristine, continuing. >&2; \
         else \
             echo Working directory is dirty >&2; \
+	    exit 1; \
         fi
 
 .PHONY: clean
