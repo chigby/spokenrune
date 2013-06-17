@@ -22,6 +22,10 @@ compile '/js/*' do
   # don’t filter or layout
 end
 
+compile 'htaccess' do
+ #
+end
+
 compile 'atom' do
   filter :erb
 end
@@ -54,6 +58,10 @@ end
 
 route 'atom' do
   item.identifier.chop + '.xml'
+end
+
+route 'htaccess' do
+  '/.htaccess'
 end
 
 
