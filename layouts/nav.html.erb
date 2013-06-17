@@ -1,0 +1,16 @@
+<nav>
+  <img src="/img/inscriptions.png">
+  <ol class="inscriptions">
+    <% sorted_readings[0..69].each do |reading| %>
+    <li>
+      <%= link_to(reading[:title].gsub("'", '&#8217;'), reading.path) %> <%= reading[:author].gsub("'", '&#8217;') %></li>
+    <% end %>
+  </ol>
+  <br/>
+  <i>
+    <%=
+       chronological = @items.find { |i| i.identifier == '/chronological/' }
+       link_to('More inscriptions &#8230;', chronological)
+    %>
+  </i>
+</nav>

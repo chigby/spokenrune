@@ -1,0 +1,39 @@
+<%= render 'nav' %>
+
+<article>
+  <p class="download">
+    <a target="_blank" href="<%= s3_url @item[:filename] %>">
+      <img src="/img/download.png">
+    </a>
+  </p>
+
+  <img class="art" alt="<%= @item[:title] %> Image" src="<%= @item[:image_url] %>" />
+  <br/>
+
+  <div class="info">
+     <%= @item.compiled_content(:snapshot => :guts) %>
+     <% if @items.select { |i| i[:author] == item[:author] and i[:title] != item[:title] }.size > 0 %>
+       Other works by <%= @item[:author] %>
+       <ul>
+       <% @items.select { |i| i[:author] == item[:author] and i[:title] != item[:title] }.each do |i| %>
+       <li><%= link_to(i[:title], i.path) %></li>
+       <% end %>
+       </ul>
+     <% end %>
+  </div>
+
+  <script defer="defer" type="text/javascript">
+    $(document).ready( function () {
+    var cues = {
+    <% if @item[:cues] %>
+    <% @item[:cues].each do |cue| %>
+        '{{cue[0]}}': '{{cue[1]}}',
+    <% end %>
+    <% end %>
+    }
+
+    createPlayer("<%= @item[:filename] %>", cues) // Inside the anonymous function we are cool.
+    });
+
+  </script>
+</article>

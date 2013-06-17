@@ -1,0 +1,34 @@
+---
+type: feed
+---
+
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+
+ <title type="text"><%= @site.config[:title] %></title>
+ <link href="<%= @site.config[:base_url] + @item.path %>" rel="self"/>
+ <link href="<%= @site.config[:base_url] %>/"/>
+ <updated><%= sorted_readings[0][:mtime].to_iso8601_time %></updated>
+ <id><%= @site.config[:base_url] %>/</id>
+ <author>
+   <name><%= @site.config[:author_name] %></name>
+   <email><%= @site.config[:author_email] %></email>
+ </author>
+
+ <% sorted_readings[0..10].each do |reading| %>
+ <entry>
+   <title><%= reading[:title] %></title>
+   <itunes:duration><%= reading[:duration] %></itunes:duration>
+   <link href="<%= @site.config[:base_url] + reading.path %>"/>
+   <updated><%= reading[:atom_id] ? attribute_to_time(reading[:created_at]).to_iso8601_time: reading[:mtime].to_iso8601_time %></updated>
+   <published><%= attribute_to_time(reading[:created_at]).to_iso8601_time %></published>
+   <id><%= reading[:atom_id] || atom_id(reading) %></id>
+   <content type="html">
+<![CDATA[
+<a href="<%= s3_url reading[:filename] %>">"<%= h(reading[:title]) %>" by <%= h(reading[:author]) %></a>
+]]>
+</content>
+ </entry>
+ <% end %>
+
+</feed>

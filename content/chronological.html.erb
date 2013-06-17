@@ -1,0 +1,20 @@
+<div class="toc">
+  <h2>Index of All Readings</h2>
+  <ol class="inscriptions">
+    <% readings = sorted_readings
+       col1 = readings.size / 2
+       col2 = col1 + 1
+    %>
+
+    <% for reading in sorted_readings.slice(0, col1) %>
+    <li><%= reading_nav_link(reading) %></li>
+    <% end %>
+  </ol>
+
+  <ol class="inscriptions" start="<%= col2 %>">
+    <% for reading in sorted_readings.slice(col1, col2) %>
+    <li><%= reading_nav_link(reading) %></li>
+    <% end %>
+  </ol>
+
+</div>

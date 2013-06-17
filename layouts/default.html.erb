@@ -5,7 +5,7 @@
 <head>
   <meta charset="utf-8">
   <link rel="stylesheet" href="/css/style.css">
-  <title>{{ site.title }}: {{ page.title }} {% if page.author %} by {{ page.author }} {% endif %}</title>
+  <title><%= @site.config[:title] %>: <%= @item[:title] %> <% if @item[:author] %> <%= @item[:author] %> <% end %></title>
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
   <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js"></script>
   <script src="/js/master.js"></script>
@@ -29,25 +29,25 @@
     <header>
     <a class="logo" href="/"><img src="/img/tsr.png"></a>
     <div class="extras">
-      <a href="http://feeds.feedburner.com/TheSpokenRune" title="Subscribe via RSS"><img src="/img/rss-25.png"></a>
-      <a href="http://itunes.apple.com/us/podcast/the-spoken-rune/id525314437" title="Subscribe via iTunes"><img src="/img/itunes.png"></a>
+      <a href="<%= @site.config[:feedburner_url] %>" title="Subscribe via RSS"><img src="/img/rss-25.png"></a>
+      <a href="<%= @site.config[:itunes_url] %>" title="Subscribe via iTunes"><img src="/img/itunes.png"></a>
     </div>
     </header>
 
-    {{ content }}
+    <%= yield %>
     <div class="push"></div>
   </div>
 
   <footer>
       <h2><i>The Spoken Rune</i> is a collection of verse and prose read aloud.</h2>
       <ul>
-        <li><a href="http://feeds.feedburner.com/TheSpokenRune" title="Subscribe via RSS">Subscribe via RSS</a></li>
-        <li><a href="http://itunes.apple.com/us/podcast/the-spoken-rune/id525314437" title="Add the podcast in iTunes">Add the podcast in iTunes</a></li>
+        <li><%= link_to('Subscribe via RSS', @site.config[:feedburner_url], :title => 'Subscribe via RSS') %></li>
+        <li><%= link_to('Add the podcast in iTunes', @site.config[:itunes_url], :title => 'Add the podcast in iTunes') %></li>
       </ul>
 
       <p>All text read by <a href="http://chigby.org">Cameron Higby-Naquin</a>.</p>
       <p>Site artwork and symbols by <a href="http://monsterism.tumblr.com/">Marcelo Gallegos</a>.</p>
-      <p><a href="mailto:me@chigby.org">Contact the site maintainer.</a></p>
+      <p><a href="mailto:<%= @site.config[:author_email] %>">Contact the site maintainer.</a></p>
   </footer>
 </body>
 

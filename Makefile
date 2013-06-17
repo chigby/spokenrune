@@ -1,4 +1,4 @@
-sitedir       = _site
+sitedir       = output
 
 produser   = chigby
 prodhost   = nullsurface.com
@@ -17,7 +17,7 @@ serve: clean
 	jekyll serve --watch
 
 build: clean
-	jekyll build
+	nanoc
 
 test: build push-test
 

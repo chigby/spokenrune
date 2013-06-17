@@ -1,0 +1,13 @@
+---
+layout: post
+created_at: 2010-05-27
+title: The Tiger
+author: William Blake
+filename: the-tiger
+image_url: http://farm1.static.flickr.com/205/494144274_c2dd0cb51b.jpg
+duration: "1:24"
+---
+
+_The Tiger_.  William Blake.  1794.
+
+[Photography source](http://www.flickr.com/photos/tambako/494144274/).
