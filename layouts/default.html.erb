@@ -47,7 +47,13 @@
 
       <p>All text read by <a href="http://chigby.org">Cameron Higby-Naquin</a>.</p>
       <p>Site artwork and symbols by <a href="http://monsterism.tumblr.com/">Marcelo Gallegos</a>.</p>
-      <p><a href="mailto:<%= @site.config[:author_email] %>">Contact the site maintainer.</a></p>
+      <p>Contact me!  Requests, critiques, suggestions, sonnets, sestinas, triolets, rondels, limericks, <i>etc</i>.
+        <ul>
+          <li><a href="mailto:<%= @site.config[:author_email] %>">Email</a></li>
+          <li><a href="http://twitter.com/<%= @site.config[:author_twitter] %>">Twitter</a></li>
+          <li><%= link_to('Google+', @site.config[:author_gplus]) %></li>
+        </ul>
+      </p>
   </footer>
 </body>
 
