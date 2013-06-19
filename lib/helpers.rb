@@ -32,7 +32,8 @@ end
 
 def atom_id(reading)
   domain = @site.config[:base_url].gsub('http://', '')
-  created_at = reading[:created_at]
-  created_at_id = reading[:created_at].to_s.gsub(/[^0-9]/, '')
-  "tag:#{domain},#{created_at}:/readings/#{created_at_id}"
+  created_at = attribute_to_time(reading[:created_at])
+  date = created_at.strftime('%Y-%m-%d')
+  timestamp = created_at.strftime('%Y%m%d%H%M%S') #reading[:created_at].to_s.gsub(/[^0-9]/, '')
+  "tag:#{domain},#{date}:/readings/#{timestamp}"
 end
