@@ -1,0 +1,13 @@
+---
+layout: post
+created_at: 2013-06-21T17:43:26-0400
+title: Break, Break, Break
+author: Alfred, Lord Tennyson
+filename: break-break-break
+image_url: http://nullsurface.com/images/bbb-small.jpg
+duration: "1:15"
+---
+
+_Break, Break, Break_.  Alfred, Lord Tennyson.  1842.
+
+Illustration by [W. E. F. Britten](http://en.wikipedia.org/wiki/File:W.E.F._Britten_-_The_Early_Poems_of_Alfred,_Lord_Tennyson_-_Break,_Break,_Break.jpg).
