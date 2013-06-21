@@ -25,7 +25,7 @@ def reading_nav_link(reading)
   "#{title} #{author}"
 end
 
-# what reading do we feature on the home page?]
+# what reading do we feature on the home page?
 def featured_reading
   sorted_readings[0]
 end
@@ -34,6 +34,6 @@ def atom_id(reading)
   domain = @site.config[:base_url].gsub('http://', '')
   created_at = attribute_to_time(reading[:created_at])
   date = created_at.strftime('%Y-%m-%d')
-  timestamp = created_at.strftime('%Y%m%d%H%M%S') #reading[:created_at].to_s.gsub(/[^0-9]/, '')
+  timestamp = created_at.strftime('%Y%m%d%H%M%S')
   "tag:#{domain},#{date}:/readings/#{timestamp}"
 end
