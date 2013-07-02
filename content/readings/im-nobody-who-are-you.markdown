@@ -10,4 +10,4 @@ duration: "0:36"
 
 _I'm Nobody! Who Are You?_  Emily Dickinson.  1891.
 
-Photo by [Kevin Hutchinson](https://www.flickr.com/photos/hutchike/2130568/sizes/m/).
+Photo by [Kevin Hutchinson](https://www.flickr.com/photos/hutchike/2130568/).
