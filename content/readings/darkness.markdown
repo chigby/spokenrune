@@ -6,6 +6,7 @@ author: George Gordon, Lord Byron
 filename: darkness
 image_url: http://nullsurface.com/images/darkness.jpg
 duration: "7:05"
+tags: [grim]
 ---
 
 _Darkness_.  George Gordon, Lord Byron.  1816.

@@ -7,6 +7,7 @@ filename: sonnet-27
 image_url: https://farm4.staticflickr.com/3064/4563845830_b70867167c_o.jpg
 duration: "1:23"
 atom_id: http://spokenrune.com/sonnet-27
+tags: [love, classical-greats]
 ---
 
 _Sonnet 27_.  William Shakespeare.  1609.

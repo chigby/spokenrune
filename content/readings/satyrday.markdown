@@ -6,6 +6,7 @@ author: Stephen Bauer
 filename: satyrday-ravens-moon
 image_url: http://farm3.static.flickr.com/2619/4234243998_2d9a822d63_z.jpg
 duration: "3:35"
+tags: [prose]
 ---
 
 From _Satyrday_.  Stephen Bauer.  1980.

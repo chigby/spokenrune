@@ -6,6 +6,7 @@ author: Alfred Lord Tennyson
 filename: the-kraken
 image_url: http://farm4.static.flickr.com/3157/3063549470_9a23942534_z.jpg
 duration: "1:09"
+tags: [classical-greats, otherworldly]
 ---
 
 _The Kraken_.  Alfred Lord Tennyson.  1830.

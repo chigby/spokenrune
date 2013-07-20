@@ -6,7 +6,7 @@ author: H. P. Lovecraft
 filename: the-cats
 image_url: http://farm2.static.flickr.com/1080/586719992_6946eb6d8e_z.jpg
 duration: "2:08"
-categories: [lovecraft]
+tags: [otherworldly, animals]
 ---
 
 _The Cats_.  H. P. Lovecraft.  1977.

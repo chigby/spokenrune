@@ -6,6 +6,7 @@ author: Robert Frost
 filename: i-will-sing-you-one-o
 image_url: http://farm9.staticflickr.com/8200/8246893143_81675bd5e3.jpg
 duration: "3:05"
+tags: [haunting]
 ---
 
 _I Will Sing You One-O_.  Robert Frost.  1923.

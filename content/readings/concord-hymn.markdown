@@ -6,6 +6,7 @@ author: Ralph Waldo Emerson
 filename: concord-hymn
 image_url: http://farm4.static.flickr.com/3151/2589529427_eb76d8b480.jpg
 duration: "1:08"
+tags: [classical-greats]
 ---
 
 _Concord Hymn_.  Ralph Waldo Emerson.  1837.

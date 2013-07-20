@@ -6,6 +6,7 @@ author: Robert E. Howard
 filename: frost-giants-daughter
 image_url: http://farm3.static.flickr.com/2117/2273193262_eaffb96e33_z.jpg?zz=1
 duration: "25:47"
+tags: [prose]
 ---
 
 _The Frost Giant's Daughter_.  Robert E. Howard.  1934.

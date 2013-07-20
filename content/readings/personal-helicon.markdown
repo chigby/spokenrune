@@ -6,6 +6,7 @@ author: Seamus Heaney
 filename: personal-helicon
 image_url: http://nullsurface.com/images/personal-helicon.jpg
 duration: "1:32"
+tags: [haunting]
 ---
 
 _Personal Helicon_.  Seamus Heaney.  1966.

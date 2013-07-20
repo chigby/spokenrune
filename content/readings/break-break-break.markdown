@@ -6,6 +6,7 @@ author: Alfred, Lord Tennyson
 filename: break-break-break
 image_url: http://nullsurface.com/images/bbb-small.jpg
 duration: "1:15"
+tags: [classical-greats, elegiac]
 ---
 
 _Break, Break, Break_.  Alfred, Lord Tennyson.  1842.

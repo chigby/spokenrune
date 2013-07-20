@@ -6,6 +6,7 @@ author: Medbh McGuckian
 filename: breaking-the-blue
 image_url: http://farm5.staticflickr.com/4042/4337625008_7515a75ba1.jpg
 duration: "1:56"
+tags: [enigmatic]
 ---
 
 _Breaking the Blue_.  Medbh McGuckian.  1991.

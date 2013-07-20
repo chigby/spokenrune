@@ -6,6 +6,7 @@ author: William Shakespeare
 filename: tempest-where-the-bee-sucks
 image_url: http://farm4.static.flickr.com/3595/3510711357_8e41d25d43_z.jpg
 duration: "0:23"
+tags: [classical-greats]
 ---
 
 _Where the Bee Sucks, there Suck I_, from _The Tempest_.  William Shakespeare.  1610-11.

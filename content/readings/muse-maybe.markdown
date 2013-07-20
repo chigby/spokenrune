@@ -6,6 +6,7 @@ author: Eamon Grennan
 filename: muse-maybe
 image_url: http://farm6.static.flickr.com/5056/5529891490_664f0a800b_z.jpg
 duration: "1:05"
+tags: [haunting]
 ---
 
 _Muse, Maybe_.  Eamon Grennan.  1987.

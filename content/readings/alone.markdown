@@ -7,6 +7,7 @@ filename: alone
 image_url: https://farm4.staticflickr.com/3549/3841695928_c484f51af1.jpg
 duration: "1:34"
 atom_id: http://spokenrune.com/alone
+tags: [elegiac]
 ---
 
 _Alone_.  Edgar Allane Poe.  1875.

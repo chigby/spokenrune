@@ -6,6 +6,7 @@ author: Alfred, Lord Tennyson
 filename: crossing-the-bar
 image_url: http://farm1.staticflickr.com/95/253931048_2b1090da2b.jpg
 duration: "1:15"
+tags: [elegiac, classical-greats]
 ---
 
 _Crossing the Bar_.  Alfred, Lord Tennyson.  1889.

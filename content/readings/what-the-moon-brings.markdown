@@ -8,6 +8,7 @@ image_url: https://farm8.staticflickr.com/7151/6636238905_7e393fa473.jpg
 duration: "7:51"
 categories: [lovecraft]
 atom_id: http://spokenrune.com/what-the-moon-brings
+tags: [prose]
 ---
 
 _What the Moon Brings_.  H. P. Lovecraft.  1923.
