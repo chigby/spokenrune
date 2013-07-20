@@ -297,13 +297,30 @@ footer a:hover { color: #DFF7FE; }
 }
 
 .toc ol {
-    list-style-type: upper-roman;
+  margin-top:0px;
+  list-style-type: upper-roman;
+}
+
+.toc ul {
+  margin-top: 0px;
+  list-style-type: none;
+  font-weight:bold;
+  font-variant:small-caps;
+  font-family:Georgia;
+}
+
+.toc ul ul {
+  font-weight: normal;
+  font-variant: normal;
+  padding-left:20px;
 }
 
 .toc .inscriptions {
     float: left;
-    width: 450px;
+    width: 300px;
 }
+
+.toc ul ul, .toc ol ul { margin-top:0px; margin-bottom:0px;}
 
 /* Gradient transparent - color - transparent */
 

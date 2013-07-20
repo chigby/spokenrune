@@ -1,11 +1,14 @@
 <nav>
   <img src="/img/inscriptions.png">
-  <ol class="inscriptions">
-    <% sorted_readings[0..69].each do |reading| %>
-    <li>
-      <%= link_to(reading[:title].gsub("'", '&#8217;'), reading.path) %> <%= reading[:author].gsub("'", '&#8217;') %></li>
-    <% end %>
-  </ol>
+
+  <%= render 'navgroup', :title => 'Most Recent', :readings => sorted_readings[0..5] %>
+  <%= render 'navgroup', :title => 'Favorites', :readings => items_with_tag('favorite') %>
+  <%= render 'navgroup', :title => 'Love', :readings => items_with_tag('love') %>
+  <%= render 'navgroup', :title => 'Otherworldly', :readings => items_with_tag('otherworldly') %>
+  <%= render 'navgroup', :title => 'Haunting', :readings => items_with_tag('haunting') %>
+  <%= render 'navgroup', :title => 'Enigmatic', :readings => items_with_tag('enigmatic') %>
+  <%= render 'navgroup', :title => 'Classical Greats', :readings => items_with_tag('classical-greats') %>
+
   <br/>
   <i>
     <%=
