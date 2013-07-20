@@ -2,16 +2,32 @@ include Nanoc::Helpers::Blogging
 include Nanoc::Helpers::HTMLEscape
 include Nanoc::Helpers::LinkTo
 include Nanoc::Helpers::Rendering
+include Nanoc::Helpers::Tagging
 
 # ad hoc definition.  only readings have authors ... for now.
 def readings
   @items.select { |item| item[:author] }
 end
 
+def readings_for_author(author)
+  @items.select { |item| item[:author] and item[:author] == author }
+end
+
+
 def sorted_readings
   readings.sort_by do |a|
     attribute_to_time(a[:created_at])
   end.reverse
+end
+
+def authors
+  auths = Array.new
+  readings.each do |r|
+    auths.push(r[:author]) unless auths.include? r[:author]
+  end
+  auths.sort_by do |a|
+    a.split(' ').last
+  end
 end
 
 def s3_url(filename)
