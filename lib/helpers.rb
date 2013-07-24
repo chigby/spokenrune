@@ -34,6 +34,10 @@ def s3_url(filename)
   "http://s3.amazonaws.com/spokenrune/#{filename}.mp3"
 end
 
+def apostrophize(s)
+  s.gsub("'", '&#8217;')
+end
+
 # should this include "by" between title and author??
 def reading_nav_link(reading)
   title = link_to(reading[:title].gsub("'", '&#8217;'), reading.path)

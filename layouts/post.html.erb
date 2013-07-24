@@ -16,7 +16,7 @@
        Other works by <%= @item[:author] %>
        <ul>
        <% @items.select { |i| i[:author] == item[:author] and i[:title] != item[:title] }.each do |i| %>
-       <li><%= link_to(i[:title], i.path) %></li>
+       <li><%= link_to(apostrophize(i[:title]), i.path) %></li>
        <% end %>
        </ul>
      <% end %>
