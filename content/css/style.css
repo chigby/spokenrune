@@ -128,6 +128,33 @@ nav {
     margin-top: 2em;
 }
 
+nav h3 {
+  font-family:Georgia, serif;
+  font-size:130%;
+  font-variant:small-caps;
+  margin-left:10px;
+  margin-bottom:10px;
+}
+
+nav ol {
+  margin-left:15px;
+}
+
+nav ol li {
+  margin-bottom:5px;
+}
+
+nav .byline {
+  font-size:100%;
+  text-transform:uppercase;
+}
+
+nav ol a {
+  font-size:130%;
+  font-family:Georgia, serif;
+}
+
+
 article {
     margin-top: 2em;
     float: left;

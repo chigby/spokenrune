@@ -1,7 +1,8 @@
   <h3><%= @title %></h3>
   <ol class="inscriptions">
-    <% readings[0..5].each do |reading| %>
+    <% readings[0..2].each do |reading| %>
     <li>
-      <%= link_to(reading[:title].gsub("'", '&#8217;'), reading.path) %> <%= reading[:author].gsub("'", '&#8217;') %></li>
+      <%= link_to(reading[:title].gsub("'", '&#8217;'), reading.path) %><br/>
+      <span class="byline">by <%= reading[:author].gsub("'", '&#8217;') %></span></li>
     <% end %>
   </ol>

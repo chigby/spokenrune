@@ -1,14 +1,21 @@
 <nav>
   <img src="/img/inscriptions.png" alt="Inscriptions">
   <!-- TODO: order the below by date published -->
-  <%= render 'navgroup', :title => 'Most Recent', :readings => sorted_readings[0..5] %>
-  <%= render 'navgroup', :title => 'Favorites', :readings => items_with_tag('favorite') %>
-  <%= render 'navgroup', :title => 'Love', :readings => items_with_tag('love') %>
-  <%= render 'navgroup', :title => 'Otherworldly', :readings => items_with_tag('otherworldly') %>
-  <%= render 'navgroup', :title => 'Haunting', :readings => items_with_tag('haunting') %>
-  <%= render 'navgroup', :title => 'Enigmatic', :readings => items_with_tag('enigmatic') %>
-  <%= render 'navgroup', :title => 'Classical Greats', :readings => items_with_tag('classical-greats') %>
+  <%
+     recent = sorted_readings[0..2]
+     fav = items_with_tag('favorite') - recent
+     love = items_with_tag('love') - fav - recent
+     otherw = items_with_tag('otherworldly') - love - fav - recent
+     haunt = items_with_tag('haunting') - otherw - love - fav - recent
+     enig = items_with_tag('enigmatic') - haunt - otherw - love - fav - recent
+  %>
 
+  <%= render 'navgroup', :title => 'Most Recent', :readings => recent %>
+  <%= render 'navgroup', :title => 'Favorites', :readings => fav %>
+  <%= render 'navgroup', :title => 'Love', :readings => love %>
+  <%= render 'navgroup', :title => 'Otherworldly', :readings => otherw %>
+  <%= render 'navgroup', :title => 'Haunting', :readings => haunt %>
+  <%= render 'navgroup', :title => 'Enigmatic', :readings => enig %>
   <br/>
   <i>
     <%=
