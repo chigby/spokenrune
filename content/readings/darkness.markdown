@@ -2,7 +2,7 @@
 layout: post
 created_at: 2012-12-22
 title: Darkness
-author: George Gordon, Lord Byron
+author: Lord Byron
 filename: darkness
 image_url: http://nullsurface.com/images/darkness.jpg
 duration: "7:05"
