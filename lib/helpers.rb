@@ -12,7 +12,6 @@ def readings_for_author(author)
   @items.select { |item| item[:author] and item[:author] == author }
 end
 
-
 def sorted_readings
   readings.sort_by do |a|
     attribute_to_time(a[:created_at])
