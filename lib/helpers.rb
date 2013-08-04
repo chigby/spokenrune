@@ -9,7 +9,7 @@ def readings
 end
 
 def readings_for_author(author)
-  @items.select { |item| item[:author] and item[:author] == author }
+  @items.select { |item| (item[:author] || '')  == author }
 end
 
 def sorted_readings
