@@ -1,5 +1,5 @@
 <nav>
-  <img src="/img/inscriptions.png">
+  <img src="/img/inscriptions.png" alt="Inscriptions">
   <!-- TODO: order the below by date published -->
   <%= render 'navgroup', :title => 'Most Recent', :readings => sorted_readings[0..5] %>
   <%= render 'navgroup', :title => 'Favorites', :readings => items_with_tag('favorite') %>
