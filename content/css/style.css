@@ -204,7 +204,21 @@ header a {
 }
 
 .inscriptions {
-    margin-top: 20px;
+    margin-top: 0px;
+}
+
+.author-index {
+    float: left;
+    width: 300px;
+}
+
+.author-index a {
+  text-decoration:none;
+  color: inherit;
+}
+
+.author-index a:hover {
+  text-decoration: underline;
 }
 
 .player {

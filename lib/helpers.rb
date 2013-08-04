@@ -36,6 +36,16 @@ def apostrophize(s)
   s.gsub("'", '&#8217;')
 end
 
+def swap_names(name)
+  names = name.split(' ')
+  if names.size == 1
+    return name
+  end
+  last = names.last
+  rest = names[0..-2].join(' ')
+  "#{last}, #{rest}"
+end
+
 # should this include "by" between title and author??
 def reading_nav_link(reading)
   title = link_to(reading[:title].gsub("'", '&#8217;'), reading.path)

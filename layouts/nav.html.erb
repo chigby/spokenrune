@@ -19,8 +19,8 @@
   <br/>
   <i>
     <%=
-       chronological = @items.find { |i| i.identifier == '/chronological/' }
-       link_to('More inscriptions &#8230;', chronological)
+       more = @items.find { |i| i.identifier == '/authors/' }
+       link_to('More inscriptions &#8230;', more)
     %>
   </i>
 </nav>

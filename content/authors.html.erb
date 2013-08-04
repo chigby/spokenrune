@@ -1,44 +1,32 @@
 <div class="toc">
   <h2>Index by Author </h2>
-  <ul class="inscriptions">
+
     <% auths = authors
+
        col1 = authors.size / 3
        col2 = col1 + 1
        col3 = col1 + col2
+
+       rows = 60
+       i = 0
     %>
-    <% for author in auths.slice(0, col1) %>
-    <li><%= author %>
+
+    <ul class="author-index">
+    <% for author in auths %>
+    <li><%= apostrophize(swap_names(author)) %>
+      <% i += 1 %>
       <ul>
         <% for reading in readings_for_author(author) %>
-        <li><%= reading[:title] %></li>
+        <li><i><%= link_to(apostrophize(reading[:title]), reading) %></i></li>
+        <% i += 1 %>
         <% end %>
       </ul>
     </li>
+    <% if i > rows %>
+    <% i = 0 %>
+    </ul>
+    <ul class="author-index">
     <% end %>
-  </ul>
-
-  <ul class="inscriptions" start="<%= col2 %>">
-    <% for author in auths.slice(col1, col2) %>
-    <li><%= author %>
-      <ul>
-        <% for reading in readings_for_author(author) %>
-        <li><%= reading[:title] %></li>
-        <% end %>
-      </ul>
-    </li>
     <% end %>
-  </ul>
-
-  <ul class="inscriptions" start="<%= col2 %>">
-    <% for author in auths.slice(col3, authors.size) %>
-    <li><%= author %>
-      <ul>
-        <% for reading in readings_for_author(author) %>
-        <li><i><%= reading[:title] %></i></li>
-        <% end %>
-      </ul>
-    </li>
-    <% end %>
-  </ul>
-
+    </ul>
 </div>
