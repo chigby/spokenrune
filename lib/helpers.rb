@@ -4,9 +4,8 @@ include Nanoc::Helpers::LinkTo
 include Nanoc::Helpers::Rendering
 include Nanoc::Helpers::Tagging
 
-# ad hoc definition.  only readings have authors ... for now.
 def readings
-  @items.select { |item| item[:author] }
+  @items.select { |i| i[:layout] == 'post' }
 end
 
 def readings_for_author(author)
