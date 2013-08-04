@@ -13,8 +13,12 @@ def readings_for_author(author)
 end
 
 def sorted_readings
-  readings.sort_by do |a|
-    attribute_to_time(a[:created_at])
+  sort_by_date(readings)
+end
+
+def sort_by_date(readings)
+  readings.sort_by do |r|
+    attribute_to_time(r[:created_at])
   end.reverse
 end
 

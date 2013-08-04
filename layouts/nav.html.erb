@@ -1,13 +1,12 @@
 <nav>
   <img src="/img/inscriptions.png" alt="Inscriptions">
-  <!-- TODO: order the below by date published -->
   <%
      recent = sorted_readings[0..2]
-     fav = items_with_tag('favorite') - recent
-     love = items_with_tag('love') - fav - recent
-     otherw = items_with_tag('otherworldly') - love - fav - recent
-     haunt = items_with_tag('haunting') - otherw - love - fav - recent
-     enig = items_with_tag('enigmatic') - haunt - otherw - love - fav - recent
+     fav = sort_by_date(items_with_tag('favorite') - recent)
+     love = sort_by_date(items_with_tag('love') - fav - recent)
+     otherw = sort_by_date(items_with_tag('otherworldly') - love - fav - recent)
+     haunt = sort_by_date(items_with_tag('haunting') - otherw - love - fav - recent)
+     enig = sort_by_date(items_with_tag('enigmatic') - haunt - otherw - love - fav - recent)
   %>
 
   <%= render 'navgroup', :title => 'Most Recent', :readings => recent %>
