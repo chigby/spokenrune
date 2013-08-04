@@ -154,6 +154,12 @@ nav ol a {
   font-family:Georgia, serif;
 }
 
+.more-nav {
+  margin-left: 10px;
+  font-family:Georgia, serif;
+  font-size:130%;
+  font-style:italic;
+}
 
 article {
     margin-top: 2em;

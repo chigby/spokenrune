@@ -17,10 +17,10 @@
   <%= render 'navgroup', :title => 'Haunting', :readings => haunt %>
   <%= render 'navgroup', :title => 'Enigmatic', :readings => enig %>
   <br/>
-  <i>
+  <span class="more-nav">
     <%=
        more = @items.find { |i| i.identifier == '/authors/' }
-       link_to('More inscriptions &#8230;', more)
+       link_to('Complete index', more)
     %>
-  </i>
+  </span>
 </nav>
