@@ -9,6 +9,6 @@ duration: "0:13"
 tags: [enigmatic, elegiac]
 ---
 
-Walter Savage Landor.
+"On Love, On Grief." Walter Savage Landor.
 
 [Photography source](http://www.flickr.com/photos/nswmaritime/3946696978/).
