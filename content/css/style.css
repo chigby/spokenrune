@@ -121,7 +121,7 @@ body {
     background-repeat: no-repeat;
 }
 
-nav {
+nav#sidebar {
     float: left;
     width: 360px;
     margin-right:70px;
@@ -222,17 +222,17 @@ header a {
     margin-top: 0px;
 }
 
-.author-index {
+.index {
     float: left;
     width: 300px;
 }
 
-.author-index a {
+.index a {
   text-decoration:none;
   color: inherit;
 }
 
-.author-index a:hover {
+.index a:hover {
   text-decoration: underline;
 }
 
@@ -363,7 +363,7 @@ footer a:hover { color: #DFF7FE; }
 }
 
 .toc ul {
-  margin-top: 0px;
+  margin-top: 0px; padding-top:0px;
   list-style-type: none;
   font-weight:bold;
   font-size:110%;
@@ -383,6 +383,15 @@ footer a:hover { color: #DFF7FE; }
 }
 
 .toc ul ul, .toc ol ul { margin-top:0px; margin-bottom:0px;}
+
+.toc nav {padding:1px; margin: 10px 0 10px 0px;}
+
+.toc ul.navigation li {
+  font-family:"cora"; font-variant:normal;
+  font-weight:normal;
+  float:left;
+  padding-right: 30px;
+}
 
 /* Gradient transparent - color - transparent */
 

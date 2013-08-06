@@ -24,11 +24,12 @@ def sort_by_date(readings)
   end.reverse
 end
 
-def authors
+def authors(lower='a', upper='z')
   auths = Array.new
   readings.each do |r|
     auths.push(r[:author]) unless auths.include? r[:author]
   end
+  auths = auths.select{|x| x.split(' ').last[0].downcase.between?(lower, upper)}
   auths.sort_by do |a|
     a.split(' ').last
   end

@@ -1,4 +1,4 @@
-<nav>
+<nav id="sidebar">
   <img src="/img/inscriptions.png" alt="Inscriptions">
   <%
      recent = sorted_readings[0..2]
@@ -18,7 +18,7 @@
   <br/>
   <span class="more-nav">
     <%=
-       more = @items.find { |i| i.identifier == '/authors/' }
+       more = @items.find { |i| i.identifier == '/authors-am/' }
        link_to('Complete index', more)
     %>
   </span>
