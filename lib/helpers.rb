@@ -1,3 +1,5 @@
+require 'date'
+require 'human_name_parser'
 include Nanoc::Helpers::Blogging
 include Nanoc::Helpers::HTMLEscape
 include Nanoc::Helpers::LinkTo
@@ -12,6 +14,16 @@ def readings_for_author(author)
   @items.select { |item| (item[:author] || '')  == author }.sort_by do |r|
     r[:title]
   end
+end
+
+def readings_by_year(year)
+  min = Date.new(year)
+  max = Date.new(year + 1) - 1
+  sort_by_date(readings.select { |r| (min..max).cover?(r[:created_at].to_date) })
+end
+
+def max_year
+  sorted_readings[0][:created_at].to_date.year
 end
 
 def sorted_readings
@@ -31,7 +43,7 @@ def authors(lower='a', upper='z')
   end
   auths = auths.select{|x| x.split(' ').last[0].downcase.between?(lower, upper)}
   auths.sort_by do |a|
-    a.split(' ').last
+    swap_names(a).downcase
   end
 end
 
@@ -44,20 +56,22 @@ def apostrophize(s)
 end
 
 def swap_names(name)
-  names = name.split(' ')
-  if names.size == 1
-    return name
+  parsed = HumanNameParser.parse name
+  if parsed.last.empty?
+    return parsed.to_s
   end
-  last = names.last
-  rest = names[0..-2].join(' ')
-  "#{last}, #{rest}"
+  if not parsed.suffix.empty?
+    return "#{parsed.last}, #{parsed.first} #{parsed.middle}, #{parsed.suffix}"
+  end
+  "#{parsed.last}, #{parsed.first} #{parsed.middle}"
 end
 
 # should this include "by" between title and author??
 def reading_nav_link(reading)
   title = link_to(reading[:title].gsub("'", '&#8217;'), reading.path)
   author = reading[:author].gsub("'", '&#8217;')
-  "#{title} #{author}"
+  date = reading[:created_at].strftime('%b %-d')
+  "#{title}<br/> #{author} &\#8211; <span>#{date}</span>"
 end
 
 # what reading do we feature on the home page?
