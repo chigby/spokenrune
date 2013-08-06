@@ -129,9 +129,10 @@ nav {
 }
 
 nav h3 {
-  font-family:Georgia, serif;
-  font-size:130%;
-  font-variant:small-caps;
+  font-family: "english-small-caps", Georgia, serif;
+  font-size:180%;
+  font-weight:normal;
+  /* font-variant:small-caps; */
   margin-left:10px;
   margin-bottom:10px;
 }
@@ -145,18 +146,26 @@ nav ol li {
 }
 
 nav .byline {
-  font-size:100%;
+  font-size:110%;
   text-transform:uppercase;
+  font-family:"cora",sans-serif;
 }
 
 nav ol a {
   font-size:130%;
-  font-family:Georgia, serif;
+  font-weight:normal;
+  font-family: "jaf-lapture", Georgia, serif;
+  text-decoration:none;
+}
+
+nav ol a:hover {
+  border-bottom: solid 1px #06e;
+  text-decoration:none;
 }
 
 .more-nav {
   margin-left: 10px;
-  font-family:Georgia, serif;
+  font-family: "jaf-lapture", Georgia, serif;
   font-size:130%;
   font-style:italic;
 }
@@ -199,13 +208,13 @@ header a {
 .info {
     background: url(/img/logo.png) no-repeat;
     height: 479px;
-    font-family: "Palatino Linotype", Palatino, "Book Antiqua", "URW Palladio L", serif;
+    font-family: "jaf-lapture", Georgia, serif;
     font-size: 150%;
 }
 
 .about {
     padding-top:3em;
-    font-family: "Palatino Linotype", Palatino, "Book Antiqua", "URW Palladio L", serif;
+    font-family: "jaf-lapture", Georgia, serif;
     font-size: 150%;
 }
 
@@ -314,11 +323,10 @@ header a {
     cursor: pointer;
 }
 
-
 /* Footer */
 footer {
     font-size: 1.2em;
-    font-family: "Palatino Linotype", Palatino, "Book Antiqua", "URW Palladio L", serif;
+    font-family: "jaf-lapture", Georgia, serif;
     padding-bottom: 10px;
     color: #bbb;
     margin: 0 auto;
@@ -339,8 +347,14 @@ footer a:hover { color: #DFF7FE; }
 .toc {
     margin:0 auto;
     width: 1050px;
-    font-family: "Palatino Linotype", Palatino, "Book Antiqua", "URW Palladio L", serif;
     font-size: 115%;
+}
+
+.toc h2 {
+  font-family: "jaf-lapture-display", Georgia, serif;
+  margin-bottom: 10px;
+  padding-bottom: 0px;
+  clear:both;
 }
 
 .toc ol {
@@ -352,8 +366,9 @@ footer a:hover { color: #DFF7FE; }
   margin-top: 0px;
   list-style-type: none;
   font-weight:bold;
+  font-size:110%;
   font-variant:small-caps;
-  font-family:Georgia;
+  font-family: "jaf-lapture-display", Georgia, serif;
 }
 
 .toc ul ul {
