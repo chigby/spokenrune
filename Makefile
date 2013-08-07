@@ -19,7 +19,11 @@ serve: clean
 build: clean
 	nanoc
 
-test: build push-test
+use-tiw:
+	git checkout tiw
+	git rebase master
+
+test: use-tiw build push-test
 
 deploy: pristine build push-production
 
