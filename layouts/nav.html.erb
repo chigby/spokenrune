@@ -1,5 +1,11 @@
 <nav id="sidebar">
-  <img src="/img/inscriptions.png" alt="Inscriptions">
+  <div style="display:block;">
+  <img src="/img/inscriptions.png" alt="Inscriptions"><br/>
+    <%=
+       more = @items.find { |i| i.identifier == '/authors-am/' }
+       link_to('Complete index', more, :class => 'more-nav')
+    %>
+  </div>
   <%
      recent = sorted_readings[0..2]
      fav = sort_by_date(items_with_tag('favorite') - recent)
@@ -16,10 +22,4 @@
   <%= render 'navgroup', :title => 'Haunting', :readings => haunt %>
   <%= render 'navgroup', :title => 'Enigmatic', :readings => enig %>
   <br/>
-  <span class="more-nav">
-    <%=
-       more = @items.find { |i| i.identifier == '/authors-am/' }
-       link_to('Complete index', more)
-    %>
-  </span>
 </nav>

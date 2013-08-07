@@ -136,6 +136,7 @@ nav h3 {
   /* font-variant:small-caps; */
   margin-left:10px;
   margin-bottom:10px;
+  margin-top:10px;
 }
 
 nav ol {
@@ -162,15 +163,16 @@ nav ol a {
 }
 
 nav ol a:hover {
-  border-bottom: solid 1px #06e;
-  text-decoration:none;
+  text-decoration:underline;
 }
 
 .more-nav {
   margin-left: 10px;
-  font-family: "jaf-lapture", Georgia, serif;
+  font-family: "jaf-lapture-display", Georgia, serif;
   font-size:130%;
   font-style:italic;
+  vertical-align:bottom;
+  text-decoration:none;
 }
 
 article {
