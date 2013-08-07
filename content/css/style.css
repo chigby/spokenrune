@@ -132,6 +132,7 @@ nav h3 {
   font-family: "english-small-caps", Georgia, serif;
   font-size:180%;
   font-weight:normal;
+  line-height:28.0px;
   /* font-variant:small-caps; */
   margin-left:10px;
   margin-bottom:10px;
@@ -149,6 +150,7 @@ nav .byline {
   font-size:110%;
   text-transform:uppercase;
   font-family:"cora",sans-serif;
+  line-height:17.0px;
 }
 
 nav ol a {
@@ -156,6 +158,7 @@ nav ol a {
   font-weight:normal;
   font-family: "jaf-lapture", Georgia, serif;
   text-decoration:none;
+  line-height:20.0px;
 }
 
 nav ol a:hover {
