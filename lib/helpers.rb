@@ -19,7 +19,7 @@ end
 def readings_by_year(year)
   min = Date.new(year)
   max = Date.new(year + 1) - 1
-  sort_by_date(readings.select { |r| (min..max).cover?(r[:created_at].to_date) })
+  sort_by_date(readings.select { |r| (min..max).cover?(r[:created_at].to_date) }).reverse
 end
 
 def max_year
