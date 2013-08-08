@@ -1,0 +1,11 @@
+<nav id="topbar">
+  <ul class="navigation">
+    <% links = Hash['Authors A-M' => '/authors-am/', 'Authors N-Z' => '/authors-nz/', 'Chronological, Most Recent' => '/chronological-recent/', 'Chronological, 2011-2010' => '/chronological-1110/'] %>
+    <% for text, identifier in links %>
+    <li>
+      <%= link_to(text, @items.find { |i| i.identifier == identifier }) %>
+    </li>
+    <% end %>
+  </ul>
+</nav>
+<div style="clear:both;"></div>

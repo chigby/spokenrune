@@ -362,6 +362,13 @@ footer a:hover { color: #DFF7FE; }
   clear:both;
 }
 
+.toc h3 {
+  font-family: "jaf-lapture-display", Georgia, serif;
+  display:block;
+  clear:both;
+  font-size:140%;
+}
+
 .toc ol {
   margin-top:0px;
   list-style-type: upper-roman;
@@ -396,6 +403,15 @@ footer a:hover { color: #DFF7FE; }
   font-weight:normal;
   float:left;
   padding-right: 30px;
+}
+
+ol.inscriptions li {
+  font-family:"cora",sans-serif;
+  font-size:110%;
+}
+
+ol.inscriptions li a {
+  font-family: "jaf-lapture", Georgia, serif;
 }
 
 /* Gradient transparent - color - transparent */
