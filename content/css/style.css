@@ -374,7 +374,7 @@ footer a:hover { color: #DFF7FE; }
   list-style-type: upper-roman;
 }
 
-.toc ul {
+.toc ul.index {
   margin-top: 0px; padding-top:0px;
   list-style-type: none;
   font-weight:bold;
@@ -383,7 +383,7 @@ footer a:hover { color: #DFF7FE; }
   font-family: "jaf-lapture-display", Georgia, serif;
 }
 
-.toc ul ul {
+.toc ul.index ul {
   font-weight: normal;
   font-variant: normal;
   padding-left:20px;
@@ -405,12 +405,12 @@ footer a:hover { color: #DFF7FE; }
   padding-right: 30px;
 }
 
-ol.inscriptions li {
+.inscriptions li {
   font-family:"cora",sans-serif;
   font-size:110%;
 }
 
-ol.inscriptions li a {
+.inscriptions li a {
   font-family: "jaf-lapture", Georgia, serif;
 }
 

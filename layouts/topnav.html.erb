@@ -1,11 +1,21 @@
 <nav id="topbar">
   <ul class="navigation">
     <% links = Hash['Authors A-M' => '/authors-am/', 'Authors N-Z' => '/authors-nz/', 'Chronological, Most Recent' => '/chronological-recent/', 'Chronological, 2011-2010' => '/chronological-1110/'] %>
-    <% for text, identifier in links %>
+    <% links.each do |text, identifier| %>
     <li>
       <%= link_to(text, @items.find { |i| i.identifier == identifier }) %>
     </li>
     <% end %>
+  </ul>
+  <br/>
+  <ul class="navigation">
+    <% tags = Set.new
+  @items.select{|i| i[:tags] }.each do |item|
+    item[:tags].each { |t| tags.add(t) }
+  end
+  tags.each do |tag| %>
+    <li><%= link_to tag, "/tags/#{tag}/" %>
+  <% end %>
   </ul>
 </nav>
 <div style="clear:both;"></div>

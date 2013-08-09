@@ -1,0 +1,23 @@
+<div class="toc">
+  <%= render 'topnav' %>
+  <h2><%= @item[:tag].capitalize %></h2>
+
+ <% readings = items_with_tag(@item[:tag])
+  cols = 3
+  rows = readings.size / cols
+  i = 0
+  %>
+  <ul class="inscriptions">
+
+    <% for reading in readings %>
+    <li><%= link_to reading[:title], reading %>
+      <br/><%= reading[:author] %>
+    </li>
+    <% i += 1 %>
+    <% if i % (rows + 1) == 0 %>
+  </ul>
+  <ul class="inscriptions">
+    <% end %>
+    <% end %>
+  </ul>
+</div>
