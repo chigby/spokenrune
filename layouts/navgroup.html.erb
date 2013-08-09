@@ -5,5 +5,7 @@
       <%= link_to(reading[:title].gsub("'", '&#8217;'), reading.path) %><br/>
       <span class="byline">by <%= reading[:author].gsub("'", '&#8217;') %></span></li>
     <% end %>
-    <li><span class="byline">see more</span></li>
+    <li><span class="byline">
+        <%= link_to('See more...', '#') %>
+    </span></li>
   </ol>
