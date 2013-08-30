@@ -154,6 +154,12 @@ nav .byline {
   line-height:17.0px;
 }
 
+nav .byline a {
+  font-size:100%;
+  font-family:"cora",sans-serif;
+  line-height:17.0px;
+}
+
 nav ol a {
   font-size:130%;
   font-weight:normal;
@@ -378,7 +384,7 @@ footer a:hover { color: #DFF7FE; }
   margin-top: 0px; padding-top:0px;
   list-style-type: none;
   font-weight:bold;
-  font-size:110%;
+  font-size:120%;
   font-variant:small-caps;
   font-family: "jaf-lapture-display", Georgia, serif;
 }
@@ -387,6 +393,7 @@ footer a:hover { color: #DFF7FE; }
   font-weight: normal;
   font-variant: normal;
   padding-left:20px;
+  list-style-type:none;
 }
 
 .toc .inscriptions {
@@ -410,7 +417,7 @@ footer a:hover { color: #DFF7FE; }
   font-size:110%;
 }
 
-.inscriptions li a {
+.inscriptions li a.reading {
   font-family: "jaf-lapture", Georgia, serif;
 }
 

@@ -8,7 +8,7 @@
     <% end %>
   </ul>
   <br/>
-  <ul class="navigation">
+  <ul class="navigation"><li>By Subject:</li>
     <% tags = Set.new
   @items.select{|i| i[:tags] }.each do |item|
     item[:tags].each { |t| tags.add(t) }
