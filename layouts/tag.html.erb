@@ -3,7 +3,11 @@
   <h2><%= @item[:tag].capitalize %></h2>
 
  <% readings = items_with_tag(@item[:tag])
-  cols = 3
+  if readings.size > 6
+    cols = 3
+  else
+    cols = 1
+  end
   rows = readings.size / cols
   i = 0
   %>
