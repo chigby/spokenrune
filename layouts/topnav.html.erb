@@ -13,8 +13,8 @@
   @items.select{|i| i[:tags] }.each do |item|
     item[:tags].each { |t| tags.add(t) }
   end
-  tags.each do |tag| %>
-    <li><%= link_to tag, "/tags/#{tag}/" %>
+  active_tags.each do |tag, title| %>
+    <li><%= link_to title, "/tags/#{tag}/" %>
   <% end %>
   </ul>
 </nav>

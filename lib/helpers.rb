@@ -79,6 +79,11 @@ def featured_reading
   sorted_readings[0]
 end
 
+def active_tags
+  Hash['favorite' => 'Favorites', 'love' => 'Love &amp; Longing', 'otherworldly' => 'Otherworldly', 'haunting' => 'Haunting', 'enigmatic' => 'Enigmatic']
+end
+
+
 def atom_id(reading)
   domain = @site.config[:base_url].gsub('http://', '')
   created_at = attribute_to_time(reading[:created_at])

@@ -9,19 +9,19 @@
   <%
      recent = sorted_readings[0..2]
      recent_more = @items.find { |i| i.identifier == '/chronological-recent/' }
-
-     fav = sort_by_date(items_with_tag('favorite') - recent)
-     love = sort_by_date(items_with_tag('love') - fav - recent)
-     otherw = sort_by_date(items_with_tag('otherworldly') - love - fav - recent)
-     haunt = sort_by_date(items_with_tag('haunting') - otherw - love - fav - recent)
-     enig = sort_by_date(items_with_tag('enigmatic') - haunt - otherw - love - fav - recent)
   %>
 
-  <%= render 'navgroup', :title => 'Most Recent', :readings => recent, :more_link => recent_more %>
-  <%= render 'navgroup', :title => 'Favorites', :readings => fav %>
-  <%= render 'navgroup', :title => 'Love &amp; Longing', :readings => love %>
-  <%= render 'navgroup', :title => 'Otherworldly', :readings => otherw %>
-  <%= render 'navgroup', :title => 'Haunting', :readings => haunt %>
-  <%= render 'navgroup', :title => 'Enigmatic', :readings => enig %>
+   <%= render 'navgroup', :title => 'Most Recent', :readings => recent, :more_link => recent_more %>
+
+   <%
+     displayed = recent
+     active_tags.each do |tagname, title|
+       readings = sort_by_date(items_with_tag(tagname) - displayed)
+       displayed += readings %>
+
+      <%=       render 'navgroup', :title => title, :readings => readings, :more_link => "/tags/#{tagname}" %>
+     <% end %>
+
+
   <br/>
 </nav>
