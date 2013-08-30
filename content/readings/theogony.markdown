@@ -1,7 +1,7 @@
 ---
 layout: post
 created_at: 2010-12-21
-title: Theogony (excerpt)
+title: Theogony excerpt
 author: Hesiod
 filename: theogony-night
 image_url: http://nullsurface.com/images/theogony-night.png
