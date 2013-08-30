@@ -14,8 +14,8 @@
   <ul class="inscriptions">
 
     <% for reading in readings %>
-    <li><%= link_to reading[:title], reading %>
-      <br/><%= reading[:author] %>
+    <li><%= link_to apostrophize(reading[:title]), reading %>
+      <br/><%= apostrophize(reading[:author]) %>
     </li>
     <% i += 1 %>
     <% if i % (rows + 1) == 0 %>

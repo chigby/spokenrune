@@ -2,8 +2,8 @@
   <ol class="inscriptions">
     <% readings[0..2].each do |reading| %>
     <li>
-      <%= link_to(reading[:title].gsub("'", '&#8217;'), reading.path) %><br/>
-      <span class="byline">by <%= reading[:author].gsub("'", '&#8217;') %></span></li>
+      <%= link_to(apostrophize(reading[:title]), reading.path, :class => 'reading') %><br/>
+      <span class="byline">by <%= apostrophize(reading[:author]) %></span></li>
     <% end %>
     <li><span class="byline">
         <%= link_to('See more...', '#') %>
