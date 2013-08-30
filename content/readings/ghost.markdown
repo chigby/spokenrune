@@ -6,6 +6,7 @@ author: Mary O'Malley
 filename: ghost
 image_url: http://farm4.static.flickr.com/3606/3390162697_befdc6a4aa_z.jpg
 duration: "1:30"
+tags: [otherworldly]
 ---
 
 _Ghost_.  Mary O'Malley.  1993.

@@ -6,6 +6,7 @@ author: Seamus Heaney
 filename: the-strand-at-lough-beg
 image_url: http://farm1.staticflickr.com/228/518757597_b950703adb.jpg
 duration: "4:16"
+tags: [elegiac, favorite, nature]
 ---
 
 _The Strand at Lough Beg_.  Seamus Heaney.  1979.

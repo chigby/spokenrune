@@ -6,6 +6,7 @@ author: Rachel Hadas
 filename: questions-in-the-vestibule
 image_url: http://nullsurface.com/images/muybridge.png
 duration: "1:49"
+tags: [haunting]
 ---
 
 _Questions in the Vestibule_.  Rachel Hadas.  2011.

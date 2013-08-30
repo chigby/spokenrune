@@ -6,6 +6,7 @@ author: Seamus Heaney
 filename: bog-queen
 image_url: http://farm3.static.flickr.com/2485/3745093761_190c0716ba_o.jpg
 duration: "2:16"
+tags: [nature]
 ---
 
 _Bog Queen_.  Seamus Heaney.  1975.
