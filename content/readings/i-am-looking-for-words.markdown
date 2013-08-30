@@ -6,6 +6,7 @@ author: Michelle Leigh
 filename: i-am-looking-for-words
 image_url: http://farm4.static.flickr.com/3416/3185622240_10b3d53893_z.jpg
 duration: "0:47"
+tags: [wordplay]
 ---
 
 I Am Looking For Words.  Michelle Leigh.  1996.

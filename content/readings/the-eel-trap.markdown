@@ -6,6 +6,7 @@ author: Michael Longley
 filename: the-eel-trap
 image_url: http://farm7.staticflickr.com/6199/6059295728_3ff9a203b5_m.jpg
 duration: "0:25"
+tags: [enigmatic]
 ---
 
 _The Eel-Trap_.  Michael Longley.  1994.

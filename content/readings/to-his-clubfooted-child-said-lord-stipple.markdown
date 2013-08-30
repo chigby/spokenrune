@@ -6,6 +6,7 @@ author: Edward Gorey
 filename: to-his-clubfooted-child
 image_url: http://farm5.static.flickr.com/4018/4669225269_79496bde94_o.jpg
 duration: "0:11"
+tags: [limerick, grim]
 ---
 
 Edward Gorey.  1954.

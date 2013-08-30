@@ -6,6 +6,7 @@ author: Corinne Lee
 filename: the-ecstasy-of-saint-munchhausen
 image_url: http://farm3.staticflickr.com/2345/2029538502_9e694cec76.jpg
 duration: "1:15"
+tags: [enigmatic, love]
 ---
 
 _The Ecstasy of Saint Münchhausen (By Proxy)_.  Corinne Lee.  2005.

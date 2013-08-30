@@ -6,6 +6,7 @@ author: William Shakespeare
 filename: sonnet-44
 image_url: https://farm6.staticflickr.com/5043/5328060016_09094405e2.jpg
 duration: "1:10"
+tags: [love]
 ---
 
 _Sonnet 44_.  William Shakespeare.  1609.

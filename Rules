@@ -14,6 +14,20 @@
 #   item, use the pattern “/about/*/”; “/about/*” will also select the parent,
 #   because “*” matches zero or more characters.
 
+preprocess do
+  require 'set'
+  tags = Set.new
+  @items.select{|i| i[:tags] }.each do |item|
+    item[:tags].each { |t| tags.add(t) }
+  end
+  tags.each do |tag|
+  items << Nanoc::Item.new(
+    "",
+    { :tag => tag },
+    "/tags/#{tag}/")
+  end
+end
+
 compile '/css/*' do
   # don’t filter or layout
 end
@@ -30,6 +44,10 @@ compile 'atom' do
   filter :erb
 end
 
+compile '/tags/*/' do
+  layout 'tag'
+  layout 'default'
+end
 
 # compile '/readings/*' do
 #   filter :kramdown

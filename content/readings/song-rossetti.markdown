@@ -6,6 +6,7 @@ author: Christina Rossetti
 filename: song-rossetti
 image_url: https://farm3.staticflickr.com/2326/2392962839_7432fe3d34.jpg
 duration: "1:01"
+tags: [haunting, favorite]
 ---
 
 _Song_.  Christina Rossetti.  1862.

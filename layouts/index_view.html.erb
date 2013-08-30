@@ -1,0 +1,40 @@
+<div class="toc">
+  <%= render 'topnav' %>
+  <h2><%= title %></h2>
+
+
+    <% rows = 48
+       chars_per_row = 38
+       i = 0
+    %>
+
+    <ul class="index">
+    <% for author in auths %>
+
+      <% readings = readings_for_author(author) %>
+      <% if i + readings.size + 1 > rows %>
+      <% i = 0 %>
+            </ul>
+            <ul class="index">
+      <% end %>
+      <li><%= apostrophize(swap_names(author)) %>
+        <% i += 1 %>
+      <ul>
+        <% for reading in readings %>
+        <li><i><%= link_to(apostrophize(reading[:title]), reading) %></i></li>
+        <% i += 1 %>
+        <% if reading[:title].size > chars_per_row
+             i += 1
+           end %>
+
+        <% end %>
+      </ul>
+    </li>
+    <% if i > rows %>
+    <% i = 0 %>
+    </ul>
+    <ul class="index">
+    <% end %>
+    <% end %>
+    </ul>
+</div>

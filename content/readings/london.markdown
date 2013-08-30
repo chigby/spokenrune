@@ -7,6 +7,7 @@ filename: london
 image_url: http://www.blakearchive.org/blake/images/songsie.aa.p46.100.jpg
 duration: "1:12"
 atom_id: http://spokenrune.com/london
+tags: [classical-greats]
 ---
 
 _London_.  William Blake.  1794.

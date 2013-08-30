@@ -6,6 +6,7 @@ author: Edna St. Vincent Millay
 filename: millay-sonnet-43
 image_url: http://farm3.staticflickr.com/2739/4310376088_ef44be4f46_z.jpg
 duration: "1:23"
+tags: [haunting]
 ---
 
 _Sonnet 43_.  Edna St. Vincent Millay.  1923.

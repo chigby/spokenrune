@@ -6,6 +6,7 @@ author: Amy Clampitt
 filename: fog
 image_url: http://farm4.staticflickr.com/3587/3333304064_104948284b_z.jpg?zz=1
 duration: "1:26"
+tags: [enigmatic]
 ---
 
 _Fog_.  Amy Clampitt.  1983.

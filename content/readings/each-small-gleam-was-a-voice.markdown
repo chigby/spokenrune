@@ -7,6 +7,7 @@ filename: each-small-gleam
 image_url: http://farm9.staticflickr.com/8432/7634727326_9d2ed6ca15.jpg
 duration: "1:21"
 atom_id: http://spokenrune.com/each-small-gleam-was-a-voice
+tags: [nature]
 ---
 
 _Each Small Gleam Was a Voice_.  Stephen Crane.  1899.

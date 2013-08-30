@@ -6,6 +6,7 @@ author: Derek Mahon
 filename: ovid-on-west-4th
 image_url: http://farm6.staticflickr.com/5151/5909483938_b20d13323a.jpg
 duration: "3:50"
+tags: [grim]
 ---
 
 _Ovid on West 4th_.  Derek Mahon.  Part Eight of _The Hudson Letter_.  1995.

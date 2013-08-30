@@ -6,6 +6,7 @@ author: Charles Baudelaire
 filename: the-balcony
 image_url: http://farm1.staticflickr.com/39/78531420_13bc3fe9d4_z.jpg?zz=1
 duration: "2:56"
+tags: [love, classical-greats]
 ---
 
 _The Balcony_.  Charles Baudelaire.  1857.

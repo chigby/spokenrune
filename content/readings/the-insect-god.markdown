@@ -6,6 +6,7 @@ author: Edward Gorey
 filename: the-insect-god
 image_url: http://farm3.static.flickr.com/2024/1905911524_a50e59bfee_z.jpg
 duration: "4:16"
+tags: [grim, otherworldly]
 ---
 
 _The Insect God_.  Edward Gorey.  1963.

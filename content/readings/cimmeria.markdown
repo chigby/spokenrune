@@ -6,6 +6,7 @@ author: Robert E. Howard
 filename: cimmeria
 image_url: http://farm1.static.flickr.com/46/185210773_679e0a09b8_z.jpg?zz=1
 duration: "2:24"
+tags: [grim, otherworldly]
 ---
 
 _Cimmeria_.  Robert E. Howard.  Published 1965.

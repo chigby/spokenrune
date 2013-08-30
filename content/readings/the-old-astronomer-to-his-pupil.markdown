@@ -7,6 +7,7 @@ filename: the-old-astronomer-to-his-pupil
 image_url: http://farm9.staticflickr.com/8086/8549485853_76f1a5e11e.jpg
 duration: "1:50"
 atom_id: http://spokenrune.com/the-old-astronomer-to-his-pupil
+tags: [nature, science]
 ---
 
 _The Old Astronomer to His Pupil_.  Sarah Williams.  1936.

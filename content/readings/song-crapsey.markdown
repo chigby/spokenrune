@@ -7,6 +7,7 @@ filename: song-adelaide-crapsey
 image_url: http://farm5.staticflickr.com/4148/4840346652_38c73c4a4a_z.jpg
 duration: "0:42"
 atom_id: http://spokenrune.com/song
+tags: [elegiac, haunting]
 ---
 
 _Song_.  Adelaide Crapsey.  1911.

@@ -1,16 +1,27 @@
-<nav>
-  <img src="/img/inscriptions.png">
-  <ol class="inscriptions">
-    <% sorted_readings[0..69].each do |reading| %>
-    <li>
-      <%= link_to(reading[:title].gsub("'", '&#8217;'), reading.path) %> <%= reading[:author].gsub("'", '&#8217;') %></li>
-    <% end %>
-  </ol>
-  <br/>
-  <i>
+<nav id="sidebar">
+  <div style="display:block;">
+  <img src="/img/inscriptions.png" alt="Inscriptions"><br/>
     <%=
-       chronological = @items.find { |i| i.identifier == '/chronological/' }
-       link_to('More inscriptions &#8230;', chronological)
+       more = @items.find { |i| i.identifier == '/authors-am/' }
+       link_to('Complete index', more, :class => 'more-nav')
     %>
-  </i>
+  </div>
+  <%
+     recent = sorted_readings[0..2]
+     recent_more = @items.find { |i| i.identifier == '/chronological-recent/' }
+  %>
+
+   <%= render 'navgroup', :title => 'Most Recent', :readings => recent, :more_link => recent_more %>
+
+   <%
+     displayed = recent
+     active_tags.each do |tagname, title|
+       readings = sort_by_date(items_with_tag(tagname) - displayed)
+       displayed += readings %>
+
+      <%=       render 'navgroup', :title => title, :readings => readings, :more_link => "/tags/#{tagname}" %>
+     <% end %>
+
+
+  <br/>
 </nav>

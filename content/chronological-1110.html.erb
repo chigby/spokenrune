@@ -1,0 +1,5 @@
+<% first_year = 2011%>
+<% last_year = 2010 %>
+<% year_range = first_year.downto(last_year).to_a %>
+
+<%= render 'chrono_index', :title => "Chronology #{year_range[0]}&\#8211;#{last_year}", :year_range => year_range %>

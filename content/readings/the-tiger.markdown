@@ -6,6 +6,7 @@ author: William Blake
 filename: the-tiger
 image_url: http://farm1.static.flickr.com/205/494144274_c2dd0cb51b.jpg
 duration: "1:24"
+tags: [classical-greats, animals]
 ---
 
 _The Tiger_.  William Blake.  1794.

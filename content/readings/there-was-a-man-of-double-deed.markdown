@@ -6,6 +6,7 @@ author: Anonymous
 filename: double-deed
 image_url: http://nullsurface.com/images/double-deed.jpg
 duration: "0:52"
+tags: [haunting, wordplay]
 ---
 
 _There Was a Man of Double Deed_.  Anonymous.

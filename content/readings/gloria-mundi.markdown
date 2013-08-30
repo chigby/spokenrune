@@ -6,6 +6,7 @@ author: Walter de la Mare
 filename: gloria-mundi
 image_url: https://farm4.staticflickr.com/3158/5864448071_7c7f98e0f9.jpg
 duration: "4:17"
+tags: [otherworldly]
 ---
 
 _Gloria Mundi_.  Walter de la Mare.  1906.

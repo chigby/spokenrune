@@ -1,0 +1,23 @@
+<div class="toc">
+  <%= render 'topnav' %>
+  <h2><%= title %></h2>
+    <% for year in year_range %>
+    <h3>Volume <%= year %></h3>
+    <% readings = readings_by_year(year)
+       cols = 3
+       rows = readings.size / cols
+       i = 0
+    %>
+    <ol class="inscriptions">
+
+    <% for reading in readings %>
+    <li><%= reading_nav_link(reading) %></li>
+    <% i += 1 %>
+    <% if i % (rows + 1) == 0 %>
+    </ol>
+    <ol class="inscriptions" start="<%= i %>">
+    <% end %>
+    <% end %>
+  </ol>
+  <% end %>
+</div>

@@ -6,6 +6,7 @@ author: Robert E. Howard
 filename: curse-golden-skull
 image_url: http://farm5.static.flickr.com/4077/4912970584_f361079f0a_z.jpg
 duration: "5:54"
+tags: [grim, otherworldly, prose]
 ---
 
 _The Curse of the Golden Skull_.  Robert E. Howard.  1938.

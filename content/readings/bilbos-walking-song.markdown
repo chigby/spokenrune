@@ -6,6 +6,7 @@ author: J. R. R. Tolkien
 filename: bilbos-walking-song
 image_url: http://farm1.staticflickr.com/225/493752968_aad8cf62c4_z.jpg
 duration: "1:02"
+tags: [otherworldly]
 ---
 
 Bilbo's Walking Song, from _The Hobbit_.  J. R. R. Tolkien.  1937.

@@ -7,6 +7,7 @@ filename: stars
 image_url: https://farm9.staticflickr.com/8473/8118291521_55babd2119.jpg
 duration: "0:58"
 atom_id: http://spokenrune.com/stars
+tags: [nature]
 ---
 
 _Stars_.  Sara Teasdale.  1920.

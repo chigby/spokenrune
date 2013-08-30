@@ -6,6 +6,7 @@ author: W. B. Yeats
 filename: madness-of-king-goll
 image_url: http://farm4.staticflickr.com/3046/3150336661_c5c07d1a14.jpg
 duration: "6:08"
+tags: [otherworldly]
 ---
 
 _The Madness of King Goll_.  W. B. Yeats.  1889.

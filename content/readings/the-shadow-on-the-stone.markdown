@@ -6,6 +6,7 @@ author: Thomas Hardy
 filename: the-shadow-on-the-stone
 image_url: https://farm4.staticflickr.com/3347/3517508680_2bc41f1e06.jpg
 duration: "1:53"
+tags: [elegiac, haunting]
 ---
 
 _The Shadow on the Stone_.  Thomas Hardy.  1916.

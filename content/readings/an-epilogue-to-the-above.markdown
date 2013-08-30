@@ -6,6 +6,7 @@ author: Margaret Cavenish
 filename: an-epilogue-to-the-above
 image_url: http://farm4.staticflickr.com/3027/2878726788_f015cf80e7.jpg
 duration: "1:19"
+tags: [otherworldly]
 ---
 
 _An Epilogue to the Above_.  Margaret Cavenish.  Published 1872.

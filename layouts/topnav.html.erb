@@ -1,0 +1,22 @@
+<nav id="topbar">
+  <ul class="navigation">
+    <% links = Hash['Authors A-M' => '/authors-am/', 'Authors N-Z' => '/authors-nz/', 'Chronological, Most Recent' => '/chronological-recent/', 'Chronological, 2011-2010' => '/chronological-1110/'] %>
+    <% links.each do |text, identifier| %>
+    <li>
+      <%= link_to(text, @items.find { |i| i.identifier == identifier }) %>
+    </li>
+    <% end %>
+  </ul>
+  <br/>
+  <ul class="navigation"><li>By Subject:</li>
+    <% tags = Set.new
+  @items.select{|i| i[:tags] }.each do |item|
+    item[:tags].each { |t| tags.add(t) }
+  end
+  active_tags.each do |tag, title| %>
+    <li><%= link_to title, "/tags/#{tag}/" %>
+  <% end %>
+  </ul>
+</nav>
+<!-- TODO: Remove inline styles everywhere -->
+<div style="clear:both;"></div>

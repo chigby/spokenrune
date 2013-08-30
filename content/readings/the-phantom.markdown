@@ -6,6 +6,7 @@ author: Robert W. Chambers
 filename: the-phantom
 image_url: http://farm4.staticflickr.com/3555/3371352933_4b8882076d.jpg
 duration: "1:02"
+tags: [enigmatic]
 ---
 
 _The Phantom_.  Robert W. Chambers.  1895.

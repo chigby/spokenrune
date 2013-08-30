@@ -121,11 +121,64 @@ body {
     background-repeat: no-repeat;
 }
 
-nav {
+nav#sidebar {
     float: left;
     width: 360px;
     margin-right:70px;
     margin-top: 2em;
+}
+
+nav h3 {
+  font-family: "english-small-caps", Georgia, serif;
+  font-size:180%;
+  font-weight:normal;
+  line-height:28.0px;
+  /* font-variant:small-caps; */
+  margin-left:10px;
+  margin-bottom:10px;
+  margin-top:10px;
+}
+
+nav ol {
+  margin-left:15px;
+}
+
+nav ol li {
+  margin-bottom:5px;
+}
+
+nav .byline {
+  font-size:110%;
+  text-transform:uppercase;
+  font-family:"cora",sans-serif;
+  line-height:17.0px;
+}
+
+nav .byline a {
+  font-size:100%;
+  font-family:"cora",sans-serif;
+  line-height:17.0px;
+}
+
+nav ol a {
+  font-size:130%;
+  font-weight:normal;
+  font-family: "jaf-lapture", Georgia, serif;
+  text-decoration:none;
+  line-height:20.0px;
+}
+
+nav ol a:hover {
+  text-decoration:underline;
+}
+
+.more-nav {
+  margin-left: 10px;
+  font-family: "jaf-lapture-display", Georgia, serif;
+  font-size:130%;
+  font-style:italic;
+  vertical-align:bottom;
+  text-decoration:none;
 }
 
 article {
@@ -166,18 +219,32 @@ header a {
 .info {
     background: url(/img/logo.png) no-repeat;
     height: 479px;
-    font-family: "Palatino Linotype", Palatino, "Book Antiqua", "URW Palladio L", serif;
+    font-family: "jaf-lapture", Georgia, serif;
     font-size: 150%;
 }
 
 .about {
     padding-top:3em;
-    font-family: "Palatino Linotype", Palatino, "Book Antiqua", "URW Palladio L", serif;
+    font-family: "jaf-lapture", Georgia, serif;
     font-size: 150%;
 }
 
 .inscriptions {
-    margin-top: 20px;
+    margin-top: 0px;
+}
+
+.index {
+    float: left;
+    width: 300px;
+}
+
+.index a {
+  text-decoration:none;
+  color: inherit;
+}
+
+.index a:hover {
+  text-decoration: underline;
 }
 
 .player {
@@ -267,11 +334,10 @@ header a {
     cursor: pointer;
 }
 
-
 /* Footer */
 footer {
     font-size: 1.2em;
-    font-family: "Palatino Linotype", Palatino, "Book Antiqua", "URW Palladio L", serif;
+    font-family: "jaf-lapture", Georgia, serif;
     padding-bottom: 10px;
     color: #bbb;
     margin: 0 auto;
@@ -292,17 +358,67 @@ footer a:hover { color: #DFF7FE; }
 .toc {
     margin:0 auto;
     width: 1050px;
-    font-family: "Palatino Linotype", Palatino, "Book Antiqua", "URW Palladio L", serif;
     font-size: 115%;
 }
 
+.toc h2 {
+  font-family: "jaf-lapture-display", Georgia, serif;
+  margin-bottom: 10px;
+  padding-bottom: 0px;
+  clear:both;
+}
+
+.toc h3 {
+  font-family: "jaf-lapture-display", Georgia, serif;
+  display:block;
+  clear:both;
+  font-size:140%;
+}
+
 .toc ol {
-    list-style-type: upper-roman;
+  margin-top:0px;
+  list-style-type: upper-roman;
+}
+
+.toc ul.index {
+  margin-top: 0px; padding-top:0px;
+  list-style-type: none;
+  font-weight:bold;
+  font-size:120%;
+  font-variant:small-caps;
+  font-family: "jaf-lapture-display", Georgia, serif;
+}
+
+.toc ul.index ul {
+  font-weight: normal;
+  font-variant: normal;
+  padding-left:20px;
+  list-style-type:none;
 }
 
 .toc .inscriptions {
     float: left;
-    width: 450px;
+    width: 300px;
+}
+
+.toc ul ul, .toc ol ul { margin-top:0px; margin-bottom:0px;}
+
+.toc nav {padding:1px; margin: 10px 0 10px 0px;}
+
+.toc ul.navigation li {
+  font-family:"cora"; font-variant:normal;
+  font-weight:normal;
+  float:left;
+  padding-right: 30px;
+}
+
+.inscriptions li {
+  font-family:"cora",sans-serif;
+  font-size:110%;
+}
+
+.inscriptions li a.reading {
+  font-family: "jaf-lapture", Georgia, serif;
 }
 
 /* Gradient transparent - color - transparent */

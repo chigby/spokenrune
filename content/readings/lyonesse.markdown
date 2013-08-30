@@ -6,6 +6,7 @@ author: Alan Seeger
 filename: lyonesse
 image_url: http://www.gutenberg.org/files/20249/20249-h/images/ill-0034.jpg
 duration: "0:52"
+tags: [otherworldly]
 ---
 
 _Lyonesse_.  Alan Seeger.  1916.

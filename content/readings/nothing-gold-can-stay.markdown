@@ -6,6 +6,7 @@ author: Robert Frost
 filename: nothing-gold
 image_url: http://farm3.staticflickr.com/2114/2037082716_4263a047c1.jpg
 duration: "0:37"
+tags: [nature, elegiac]
 ---
 
 _Nothing Gold Can Stay_.  Robert Frost.  1923.

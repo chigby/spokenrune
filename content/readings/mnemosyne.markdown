@@ -6,6 +6,7 @@ author: Trumbull Stickney
 filename: mnemosyne
 image_url: http://farm5.staticflickr.com/4051/4714936714_2783c9a3e9_o.jpg
 duration: "2:07"
+tags: [grim, haunting]
 ---
 
 _Mnemosyne_.  Trumbull Stickney.  1902.
