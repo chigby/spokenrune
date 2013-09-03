@@ -80,7 +80,7 @@ def featured_reading
 end
 
 def active_tags
-  Hash['favorite' => 'Favorites', 'love' => 'Love &amp; Longing', 'otherworldly' => 'Otherworldly', 'haunting' => 'Haunting', 'enigmatic' => 'Enigmatic']
+  Hash['favorite' => 'Favorites', 'love' => 'Love &amp; Longing', 'otherworldly' => 'Otherworldly', 'haunting' => 'Haunting']
 end
 
 
