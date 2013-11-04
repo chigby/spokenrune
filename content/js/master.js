@@ -50,7 +50,7 @@ var createPlayer =
                 loadingIndicator.remove();
             }
             var oldTime = 0;
-            $(audio).bind('timeupdate', function() {
+            $(audio).bind('timeupdate.main', function() {
 
                 var rem = parseInt(audio.duration - audio.currentTime, 10),
                 pos = (audio.currentTime / audio.duration) * 100,
@@ -83,13 +83,24 @@ var createPlayer =
                 }
                 oldTime = audio.currentTime;
             });
+            $(audio).bind('timeupdate.firstdecile', function () {
+                var pos = (audio.currentTime / audio.duration) * 100;
+                if (pos > 10) {
+                    ga('send', 'event', 'readings', 'start-listening', filename);
+                    $(audio).unbind('timeupdate.firstdecile');
+                }});
+            $(audio).bind('timeupdate.lastdecile', function () {
+                var pos = (audio.currentTime / audio.duration) * 100;
+                if (pos > 90) {
+                    ga('send', 'event', 'readings', 'finish-listening', filename);
+                    $(audio).unbind('timeupdate.lastdecile');
+                }});
 
             $(audio).bind('play',function() {
                 $("#playtoggle").addClass('playing');
             }).bind('pause ended', function() {
                 $("#playtoggle").removeClass('playing');
             });
-
             $("#playtoggle").click(function() {
                 if (audio.paused) { audio.play(); }
                 else { audio.pause(); }
