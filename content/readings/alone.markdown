@@ -10,6 +10,6 @@ atom_id: http://spokenrune.com/alone
 tags: [elegiac]
 ---
 
-_Alone_.  Edgar Allane Poe.  1875.
+_Alone_.  Edgar Allan Poe.  1875.
 
 Photo by [Scott Anderson](https://www.flickr.com/photos/cardscott/3841695928/).
