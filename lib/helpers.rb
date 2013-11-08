@@ -1,3 +1,4 @@
+require 'cgi'
 require 'date'
 require 'human_name_parser'
 include Nanoc::Helpers::Blogging
@@ -90,4 +91,22 @@ def atom_id(reading)
   date = created_at.strftime('%Y-%m-%d')
   timestamp = created_at.strftime('%Y%m%d%H%M%S')
   "tag:#{domain},#{date}:/readings/#{timestamp}"
+end
+
+def page_title(item)
+  if @item[:author]
+    "'#{@item[:title]}' by #{@item[:author]} (audio)"
+  else
+    @item[:title]
+  end
+end
+
+def description(item)
+  if @item[:description]
+    @item[:description]
+  elsif @item[:first_lines]
+    CGI.escapeHTML(@item[:first_lines].split("\n").join(' / '))
+  else
+    ''
+  end
 end
