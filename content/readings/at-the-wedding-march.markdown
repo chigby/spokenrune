@@ -7,6 +7,11 @@ filename: at-the-wedding-march
 image_url: http://farm3.staticflickr.com/2129/2248917269_12589281fc_z.jpg?zz=1
 duration: "1:03"
 tags: [love]
+first_lines: |
+  God with honour hang your head,
+  Groom, and grace you, bride, your bed
+  With lissome scions, sweet scions,
+  Out of hallowed bodies bred.
 ---
 
 _At the Wedding March_.  Gerard Manley Hopkins.  1879.

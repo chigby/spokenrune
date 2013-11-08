@@ -7,6 +7,11 @@ filename: crossing-the-bar
 image_url: http://farm1.staticflickr.com/95/253931048_2b1090da2b.jpg
 duration: "1:15"
 tags: [elegiac, classical-greats]
+first_lines: |
+  Sunset and evening star,
+  And one clear call for me!
+  And may there be no moaning of the bar,
+  When I put out to sea,
 ---
 
 _Crossing the Bar_.  Lord Alfred Tennyson.  1889.

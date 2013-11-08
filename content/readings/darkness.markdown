@@ -7,6 +7,11 @@ filename: darkness
 image_url: http://nullsurface.com/images/darkness.jpg
 duration: "7:05"
 tags: [grim]
+first_lines: |
+  I had a dream, which was not all a dream.
+  The bright sun was extinguish'd, and the stars
+  Did wander darkling in the eternal space,
+  Rayless, and pathless, and the icy earth
 ---
 
 _Darkness_.  George Gordon, Lord Byron.  1816.

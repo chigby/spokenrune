@@ -7,6 +7,11 @@ filename: personal-helicon
 image_url: http://nullsurface.com/images/personal-helicon.jpg
 duration: "1:32"
 tags: [haunting]
+first_lines: |
+  As a child, they could not keep me from wells
+  And old pumps with buckets and windlasses.
+  I loved the dark drop, the trapped sky, the smells
+  Of waterweed, fungus and dank moss.
 ---
 
 _Personal Helicon_.  Seamus Heaney.  1966.

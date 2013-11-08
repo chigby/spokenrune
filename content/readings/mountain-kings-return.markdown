@@ -7,6 +7,11 @@ filename: mountain-kings-return
 image_url: http://farm9.staticflickr.com/8289/7588816372_e70997d1eb.jpg
 duration: "1:06"
 tags: [otherworldly]
+first_lines: |
+  The King beneath the mountains,
+  The King of carven stone,
+  The lord of silver fountains
+  Shall come into his own!
 ---
 
 _The Mountain King's Return_.  J. R. R. Tolkien.  1937.

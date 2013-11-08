@@ -7,6 +7,8 @@ filename: curse-golden-skull
 image_url: http://farm5.static.flickr.com/4077/4912970584_f361079f0a_z.jpg
 duration: "5:54"
 tags: [grim, otherworldly, prose]
+first_lines: |
+  Rotath of Lemuria was dying.  Blood had ceased to flow from the deep sword gash under his heart, but the pulse in his temple hammered like kettle drums.
 ---
 
 _The Curse of the Golden Skull_.  Robert E. Howard.  1938.

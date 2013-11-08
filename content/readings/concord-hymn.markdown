@@ -7,6 +7,11 @@ filename: concord-hymn
 image_url: http://farm4.static.flickr.com/3151/2589529427_eb76d8b480.jpg
 duration: "1:08"
 tags: [classical-greats]
+first_lines: |
+  By the rude bridge that arched the flood,
+  Their flag to April's breeze unfurled,
+  Here once the embattled farmers stood,
+  And fired the shot heard round the world.
 ---
 
 _Concord Hymn_.  Ralph Waldo Emerson.  1837.

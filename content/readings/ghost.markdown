@@ -7,6 +7,11 @@ filename: ghost
 image_url: http://farm4.static.flickr.com/3606/3390162697_befdc6a4aa_z.jpg
 duration: "1:30"
 tags: [otherworldly]
+first_lines: |
+  There is little mention here
+  of grandmothers and mothers
+  for this is the book
+  of fishermen and Englishmen.
 ---
 
 _Ghost_.  Mary O'Malley.  1993.

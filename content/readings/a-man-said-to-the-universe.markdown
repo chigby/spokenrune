@@ -7,6 +7,11 @@ filename: a-man-said-to-the-universe
 image_url: https://farm9.staticflickr.com/8376/8530420095_c13673d218.jpg
 duration: "0:25"
 tags: [silly]
+first_lines: |
+  A man said to the universe:
+  “Sir, I exist!”
+  “However,” replied the universe,
+  “The fact has not created in me
 ---
 
 _A Man Said to the Universe_.  Stephen Crane.  1899.

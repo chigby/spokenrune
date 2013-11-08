@@ -6,6 +6,11 @@ author: Johann Wolfgang Goethe
 filename: quiet-sea
 duration: "0:39"
 tags: [nature]
+first_lines: |
+  Deep quiet rules the waters;
+  motionless, the sea reposes,
+  and the boatsman looks about with alarm
+  at the smooth surfaces about him.
 image_url: http://farm4.staticflickr.com/3353/3418636236_084b5b6cda.jpg
 ---
 

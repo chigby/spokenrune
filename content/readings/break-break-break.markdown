@@ -7,6 +7,11 @@ filename: break-break-break
 image_url: http://nullsurface.com/images/bbb-small.jpg
 duration: "1:15"
 tags: [classical-greats, elegiac]
+first_lines: |
+  Break, break, break,
+  On thy cold gray stones, O Sea!
+  And I would that my tongue could utter
+  The thoughts that arise in me.
 ---
 
 _Break, Break, Break_.  Lord Alfred Tennyson.  1842.

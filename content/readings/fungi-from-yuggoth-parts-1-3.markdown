@@ -7,6 +7,11 @@ filename: fungi-from-yuggoth-1-3
 image_url: http://farm6.staticflickr.com/5295/5427752672_ed7f238951_z.jpg
 duration: "3:47"
 tags: [otherworldly]
+first_lines: |
+  The place was dark and dusty and half-lost
+  In tangles of old alleys near the quays,
+  Reeking of strange things brought in from the seas,
+  And with queer curls of fog that west winds tossed.
 ---
 
 _Fungi From Yuggoth_, parts 1-3.  H. P. Lovecraft.  1929.

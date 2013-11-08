@@ -8,6 +8,11 @@ image_url: http://www.blakearchive.org/blake/images/songsie.aa.p46.100.jpg
 duration: "1:12"
 atom_id: http://spokenrune.com/london
 tags: [classical-greats]
+first_lines: |
+  I wander thro' each charter'd street,
+  Near where the charter'd Thames does flow.
+  And mark in every face I meet
+  Marks of weakness, marks of woe.
 ---
 
 _London_.  William Blake.  1794.

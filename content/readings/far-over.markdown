@@ -7,6 +7,11 @@ filename: far-over
 image_url: http://nullsurface.com/images/far-over.png
 duration: "2:35"
 tags: [otherworldly]
+first_lines: |
+  Far over the misty mountains cold
+  To dungeons deep and caverns old
+  We must away ere break of day
+  To seek the pale enchanted gold.
 ---
 
 From _The Hobbit_.  J. R. R. Tolkien.  1937.

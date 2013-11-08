@@ -7,6 +7,11 @@ filename: double-deed
 image_url: http://nullsurface.com/images/double-deed.jpg
 duration: "0:52"
 tags: [haunting, wordplay]
+first_lines: |
+  There was a man of double deed,
+  Who sowed his garden full of seed;
+  When the seed began to grow,
+  'Twas like a garden full of snow;
 ---
 
 _There Was a Man of Double Deed_.  Anonymous.

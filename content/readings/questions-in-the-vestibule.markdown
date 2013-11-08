@@ -7,6 +7,11 @@ filename: questions-in-the-vestibule
 image_url: http://nullsurface.com/images/muybridge.png
 duration: "1:49"
 tags: [haunting]
+first_lines: |
+  Ready to take the first decisive step,
+  you pull your purpose round you like a cloak.
+  A draft stirs, chilly, stale,
+  redolent of some half-remembered mix:
 ---
 
 _Questions in the Vestibule_.  Rachel Hadas.  2011.

@@ -7,6 +7,9 @@ filename: the-phantom
 image_url: http://farm4.staticflickr.com/3555/3371352933_4b8882076d.jpg
 duration: "1:02"
 tags: [enigmatic]
+first_lines: |
+  The Phantom of the Past would go no futher.
+  "If it is true," she sighed, "that you find in me a friend, let us turn back together. You will forget, here, under the summer sky."
 ---
 
 _The Phantom_.  Robert W. Chambers.  1895.

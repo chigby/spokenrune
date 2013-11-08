@@ -7,6 +7,11 @@ filename: upon-his-departure-hence
 image_url: https://farm5.staticflickr.com/4154/5039861436_0a1c6dc062.jpg
 duration: "0:36"
 tags: [monometer, elegiac]
+first_lines: |
+  Thus I
+  Pass by,
+  And die:
+  As one
 ---
 
 _Upon His Departure Hence_.  Robert Herrick.  Published 1891.

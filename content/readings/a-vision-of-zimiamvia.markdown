@@ -7,6 +7,11 @@ filename: a-vision-of-zimiamvia
 image_url: http://farm1.staticflickr.com/25/100219735_17a82e9fa8.jpg
 duration: "4:34"
 tags: [love]
+first_lines: |
+  I will have gold and silver for my delight:
+  Hangings of red silk, purfled and work'd in gold
+  With mantichores and what worse shapes of fright
+  Terror antiquus spawn'd in the days of old.
 ---
 
 _A Vision of Zimiamvia_.  E. R. Eddison.  1935.

@@ -9,6 +9,8 @@ duration: "7:51"
 categories: [lovecraft]
 atom_id: http://spokenrune.com/what-the-moon-brings
 tags: [prose, otherworldly]
+first_lines: |
+  I hate the moon—I am afraid of it—for when it shines on certain scenes familiar and loved it sometimes makes them unfamiliar and hideous.
 ---
 
 _What the Moon Brings_.  H. P. Lovecraft.  1923.
