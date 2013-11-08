@@ -23,7 +23,7 @@ preprocess do
   tags.each do |tag|
   items << Nanoc::Item.new(
     "",
-    { :tag => tag },
+    { :tag => tag, :title => tag.capitalize, :description => "Readings tagged '#{tag}'"  },
     "/tags/#{tag}/")
   end
 end
