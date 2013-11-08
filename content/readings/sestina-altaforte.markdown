@@ -3,7 +3,7 @@ layout: post
 created_at: 2011-04-06
 title: "Sestina: Altaforte"
 author: Ezra Pound
-mp3_url: https://s3.amazonaws.com/spokenrune/sestina-altaforte.mp3
+filename: sestina-altaforte
 image_url: http://nullsurface.com/images/another-day.jpg
 duration: "3:04"
 tags: [grim, sestina]
