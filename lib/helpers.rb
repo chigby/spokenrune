@@ -69,8 +69,8 @@ end
 
 # should this include "by" between title and author??
 def reading_nav_link(reading)
-  title = link_to(reading[:title].gsub("'", '&#8217;'), reading.path, :class => 'reading')
-  author = reading[:author].gsub("'", '&#8217;')
+  title = link_to(apostrophize(reading[:title]), reading.path, :class => 'reading')
+  author = apostrophize(reading[:author])
   date = reading[:created_at].strftime('%b %-d')
   "#{title}<br/> #{author} &\#8211; <span>#{date}</span>"
 end
