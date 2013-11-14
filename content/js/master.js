@@ -106,5 +106,8 @@ var createPlayer =
                 else { audio.pause(); }
             });
 
+            $("#download").click(function() {
+                ga('send', 'event', 'readings', 'download', filename);
+            });
         }
     };
