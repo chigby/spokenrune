@@ -13,11 +13,14 @@ switches = -rtz --chmod=ugo=rwX --delete
 clean:
 	rm -rf $(sitedir)/*
 
-serve: clean
-	jekyll serve --watch
+serve: build
+	nanoc view
 
 build: clean
 	nanoc
+
+watch: clean
+	nosy nanoc
 
 use-tiw:
 	git checkout tiw
