@@ -13,4 +13,6 @@ first_lines: |
 
 _The Abominations of Yondo_.  Clark Ashton Smith.  1926.
 
+Length: 25:09.
+
 Photo by [out of ideas](http://www.flickr.com/photos/outofideas/2295949927/).
