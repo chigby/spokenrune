@@ -4,7 +4,7 @@ created_at: 2013-11-13T19:24:49-0500
 title: One Need Not Be A Chamber To Be Haunted
 author: Emily Dickinson
 filename: one-need-not-be-a-chamber
-duration: "1:221"
+duration: "1:21"
 tags: [enigmatic]
 image_url: http://farm9.staticflickr.com/8373/8382152702_cdfa52bcf5.jpg
 first_lines: |
