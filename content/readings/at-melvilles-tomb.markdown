@@ -4,7 +4,7 @@ created_at: 2012-06-08
 title: At Melville's Tomb
 author: Hart Crane
 filename: at-melvilles-tomb
-image_url: http://farm5.staticflickr.com/4059/4262691057_17e4b600a0_z.jpg
+image_url: http://nullsurface.com/images/at-melvilles-tomb.jpg
 duration: "1:18"
 tags: [otherworldly, favorite]
 first_lines: |
