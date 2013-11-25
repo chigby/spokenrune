@@ -47,8 +47,8 @@
     <header>
     <a class="logo" href="/"><img src="/img/tsr.png"></a>
     <div class="extras">
-      <a href="<%= @site.config[:feedburner_url] %>" title="Subscribe via RSS"><img src="/img/rss-25.png"></a>
-      <a href="<%= @site.config[:itunes_url] %>" title="Subscribe via iTunes"><img src="/img/itunes.png"></a>
+      <%= ext_link('<img src="/img/rss-25.png">', @site.config[:feedburner_url], :title => 'Subscribe via RSS') %>
+      <%= ext_link('<img src="/img/itunes.png">', @site.config[:itunes_url], :title => 'Add the podcast in iTunes') %>
     </div>
     </header>
 
@@ -59,19 +59,19 @@
   <footer>
       <h2><i>The Spoken Rune</i> is a collection of verse and prose read aloud.</h2>
       <ul>
-        <li><%= link_to('Subscribe via RSS', @site.config[:feedburner_url], :title => 'Subscribe via RSS') %></li>
-        <li><%= link_to('Add the podcast in iTunes', @site.config[:itunes_url], :title => 'Add the podcast in iTunes') %></li>
+        <li><%= ext_link('Subscribe via RSS', @site.config[:feedburner_url], :title => 'Subscribe via RSS') %></li>
+        <li><%= ext_link('Add the podcast in iTunes', @site.config[:itunes_url], :title => 'Add the podcast in iTunes') %></li>
       </ul>
 
       <p>These readings are intended to educate on poetry and literature, aid in the discovery of new works, and celebrate their creators.  If you believe in good faith that materials posted here infringe your copyright, you (or your agent) can contact me requesting that I remove the material.</p>
-      <p>All text read by <a href="http://chigby.org">Cameron Higby-Naquin</a>.</p>
-      <p>Site artwork and symbols by <a href="http://monsterism.tumblr.com/">Marcelo Gallegos</a>.</p>
+      <p>All text read by <%= ext_link(@site.config[:author_name], @site.config[:author_webpage], :title => @site.config[:author_name]) %>.</p>
+      <p>Site artwork and symbols by <%= ext_link('Marcelo Gallegos', @site.config[:artist_webpage], :title => 'Marcelo Gallegos') %>.</p>
       <p>Contact me!  Requests, critiques, suggestions, sonnets, sestinas, triolets, rondels, limericks, <i>etc</i>.
         <ul>
           <li><a href="mailto:<%= @site.config[:author_email] %>">Email</a></li>
-          <li><a href="http://twitter.com/<%= @site.config[:author_twitter] %>">Twitter</a></li>
-          <li><%= link_to('Google+', @site.config[:author_gplus]) %></li>
-          <li><%= link_to('Soundcloud', @site.config[:soundcloud_url]) %></li>
+          <li><%= ext_link('Twitter', "http://twitter.com/#{@site.config[:author_twitter]}", :title => 'Twitter') %></li>
+          <li><%= ext_link('Google+', @site.config[:author_gplus], :title => 'Google Plus') %></li>
+          <li><%= ext_link('Soundcloud', @site.config[:soundcloud_url], :title => 'Soundcloud') %></li>
         </ul>
       </p>
   </footer>
