@@ -1,3 +1,13 @@
+function ga_ext_link(link) {
+    try {
+        ga('send', 'event', 'external-link', link.title);
+    } catch(err){}
+
+    setTimeout(function() {
+        document.location.href = link.href;
+    }, 100);
+}
+
 function checkUpdate(currentTime, oldTime, cues) {
     var art = $("#art");
     var timeIndex;
