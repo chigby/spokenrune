@@ -110,3 +110,8 @@ def description(item)
     ''
   end
 end
+
+def ext_link(text, target, attributes={})
+  attributes['onClick'] = 'ga_ext_link(this); return false;'
+  link_to(text, target, attributes)
+end
