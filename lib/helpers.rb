@@ -69,10 +69,10 @@ end
 
 # should this include "by" between title and author??
 def reading_nav_link(reading)
-  title = link_to(apostrophize(reading[:title]), reading.path, :class => 'reading')
+  title = link_to(apostrophize(reading[:title]), reading.path, :class => 'chrono-reading-link')
   author = apostrophize(reading[:author])
   date = reading[:created_at].strftime('%b %-d')
-  "#{title}<br/> #{author} &\#8211; <span>#{date}</span>"
+  "#{title}<br/> <span class='chrono-author'>#{author}</span> &\#8211; <span class='chrono-date'>#{date}</span>"
 end
 
 # what reading do we feature on the home page?

@@ -1,11 +1,11 @@
-  <h3><%= @title %></h3>
+  <h3 class="nav-header"><%= @title %></h3>
   <ol class="inscriptions">
     <% readings[0..2].each do |reading| %>
     <li>
-      <%= link_to(apostrophize(reading[:title]), reading.path, :class => 'reading') %><br/>
+      <%= link_to(apostrophize(reading[:title]), reading.path, :class => 'nav-reading-link') %><br/>
       <span class="byline">by <%= apostrophize(reading[:author]) %></span></li>
     <% end %>
     <li><span class="byline">
-        <%= link_to('See more...', more_link) %>
+        <%= link_to('&rarr; See more...', more_link) %>
     </span></li>
   </ol>

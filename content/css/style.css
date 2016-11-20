@@ -17,9 +17,14 @@ audio:not([controls]) { display: none; }
  * 3. Prevent iOS text size adjust on device orientation change, without disabling user zoom: h5bp.com/g
  */
 
-html { font-size: 100%; overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+html {
+  overflow-y: scroll;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  font-size: 16px;
+}
 
-body { margin: 0; font-size: 13px; line-height: 1.231; }
+body { margin: 0; line-height: 1.231; }
 
 body, button, input, select, textarea { font-family: sans-serif; color: #222; }
 
@@ -128,12 +133,11 @@ nav#sidebar {
     margin-top: 2em;
 }
 
-nav h3 {
-  font-family: "english-small-caps", Georgia, serif;
-  font-size:180%;
+nav .nav-header {
+  font-family: Georgia, serif;
+  font-size: 1.4em;
   font-weight:normal;
   line-height:28.0px;
-  /* font-variant:small-caps; */
   margin-left:10px;
   margin-bottom:10px;
   margin-top:10px;
@@ -148,34 +152,32 @@ nav ol li {
 }
 
 nav .byline {
-  font-size:110%;
-  text-transform:uppercase;
-  font-family:"cora",sans-serif;
+  font-family:verdana, sans-serif;
   line-height:17.0px;
 }
 
 nav .byline a {
-  font-size:100%;
-  font-family:"cora",sans-serif;
+  font-family:verdana, sans-serif;
   line-height:17.0px;
 }
 
 nav ol a {
-  font-size:130%;
-  font-weight:normal;
-  font-family: "jaf-lapture", Georgia, serif;
   text-decoration:none;
-  line-height:20.0px;
 }
 
 nav ol a:hover {
   text-decoration:underline;
 }
 
+.nav-reading-link {
+  font-family: Georgia, serif;
+  font-size: 1.2em;
+}
+
 .more-nav {
   margin-left: 10px;
-  font-family: "jaf-lapture-display", Georgia, serif;
-  font-size:130%;
+  font-family: Georgia, serif;
+  font-size:1.2em;
   font-style:italic;
   vertical-align:bottom;
   text-decoration:none;
@@ -219,13 +221,13 @@ header a {
 .info {
     background: url(/img/logo.png) no-repeat;
     height: 479px;
-    font-family: "jaf-lapture", Georgia, serif;
+    font-family: Georgia, serif;
     font-size: 150%;
 }
 
 .about {
     padding-top:3em;
-    font-family: "jaf-lapture", Georgia, serif;
+    font-family: Georgia, serif;
     font-size: 150%;
 }
 
@@ -236,6 +238,7 @@ header a {
 .index {
     float: left;
     width: 300px;
+    font-size: 1.1rem;
 }
 
 .index a {
@@ -337,7 +340,7 @@ header a {
 /* Footer */
 footer {
     font-size: 1.2em;
-    font-family: "jaf-lapture", Georgia, serif;
+    font-family:  Georgia, serif;
     padding-bottom: 10px;
     color: #bbb;
     margin: 0 auto;
@@ -358,21 +361,29 @@ footer a:hover { color: #DFF7FE; }
 .toc {
     margin:0 auto;
     width: 1050px;
-    font-size: 115%;
 }
 
 .toc h2 {
-  font-family: "jaf-lapture-display", Georgia, serif;
+  font-family: Georgia, serif;
   margin-bottom: 10px;
   padding-bottom: 0px;
   clear:both;
 }
 
-.toc h3 {
-  font-family: "jaf-lapture-display", Georgia, serif;
+.chrono-sub-header {
+  font-family: Georgia, serif;
+  font-size: 1.2em;
   display:block;
   clear:both;
-  font-size:140%;
+}
+
+.chrono-reading-link {
+  font-family: Georgia, serif;
+  font-size: 1.0em;
+}
+
+.chrono-author, .chrono-date {
+  font-size: 0.9em;
 }
 
 .toc ol {
@@ -384,9 +395,8 @@ footer a:hover { color: #DFF7FE; }
   margin-top: 0px; padding-top:0px;
   list-style-type: none;
   font-weight:bold;
-  font-size:120%;
   font-variant:small-caps;
-  font-family: "jaf-lapture-display", Georgia, serif;
+  font-family: Georgia, serif;
 }
 
 .toc ul.index ul {
@@ -406,19 +416,19 @@ footer a:hover { color: #DFF7FE; }
 .toc nav {padding:1px; margin: 10px 0 10px 0px;}
 
 .toc ul.navigation li {
-  font-family:"cora"; font-variant:normal;
+  font-family:verdana, sans-serif;
+  font-variant:normal;
   font-weight:normal;
   float:left;
   padding-right: 30px;
 }
 
 .inscriptions li {
-  font-family:"cora",sans-serif;
-  font-size:110%;
+  font-family:verdana, sans-serif;
 }
 
 .inscriptions li a.reading {
-  font-family: "jaf-lapture", Georgia, serif;
+  font-family: Georgia, serif;
 }
 
 /* Gradient transparent - color - transparent */

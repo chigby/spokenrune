@@ -2,7 +2,7 @@
   <%= render 'topnav' %>
   <h2><%= title %></h2>
     <% for year in year_range %>
-    <h3>Volume <%= year %></h3>
+    <h3 class="chrono-sub-header">Volume <%= year %></h3>
     <% readings = readings_by_year(year)
        cols = 3
        rows = readings.size / cols
