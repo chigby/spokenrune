@@ -78,6 +78,10 @@ route 'atom' do
   item.identifier.chop + '.xml'
 end
 
+route 'error' do
+  item.identifier.chop + '.html'
+end
+
 route 'htaccess' do
   '/.htaccess'
 end
