@@ -4,7 +4,7 @@ created_at: 2011-03-15
 title: Far Over the Misty Mountains Cold
 author: J. R. R. Tolkien
 filename: far-over
-image_url: http://nullsurface.com/images/far-over.png
+image_url: /img/readings/far-over.png
 duration: "2:35"
 tags: [otherworldly]
 first_lines: |

@@ -4,7 +4,7 @@ created_at: 2011-04-06
 title: "Sestina: Altaforte"
 author: Ezra Pound
 filename: sestina-altaforte
-image_url: http://nullsurface.com/images/another-day.jpg
+image_url: /img/readings/another-day.jpg
 duration: "3:04"
 tags: [grim, sestina]
 first_lines: |

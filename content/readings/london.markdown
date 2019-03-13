@@ -4,7 +4,7 @@ created_at: 2013-05-21
 title: London
 author: William Blake
 filename: london
-image_url: http://www.blakearchive.org/blake/images/songsie.aa.p46.100.jpg
+image_url: /img/readings/london.jpg
 duration: "1:12"
 atom_id: http://spokenrune.com/london
 tags: [classical-greats]

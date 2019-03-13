@@ -4,7 +4,7 @@ created_at: 2011-03-23
 title: There Was a Man of Double Deed
 author: Anonymous
 filename: double-deed
-image_url: http://nullsurface.com/images/double-deed.jpg
+image_url: /img/readings/double-deed.jpg
 duration: "0:52"
 tags: [haunting, wordplay]
 first_lines: |

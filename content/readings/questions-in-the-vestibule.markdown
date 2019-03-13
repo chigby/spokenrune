@@ -4,7 +4,7 @@ created_at: 2011-11-16
 title: Questions in the Vestibule
 author: Rachel Hadas
 filename: questions-in-the-vestibule
-image_url: http://nullsurface.com/images/muybridge.png
+image_url: /img/readings/muybridge.png
 duration: "1:49"
 tags: [haunting]
 first_lines: |

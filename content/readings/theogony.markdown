@@ -4,7 +4,7 @@ created_at: 2010-12-21
 title: Theogony excerpt
 author: Hesiod
 filename: theogony-night
-image_url: http://nullsurface.com/images/theogony-night.png
+image_url: /img/readings/theogony-night.png
 duration: "2:22"
 tags: [mythological, classical, translated]
 first_lines: |

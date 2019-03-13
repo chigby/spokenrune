@@ -4,7 +4,7 @@ created_at: 2012-12-22
 title: Darkness
 author: Lord Byron
 filename: darkness
-image_url: http://nullsurface.com/images/darkness.jpg
+image_url: /img/readings/darkness.jpg
 duration: "7:05"
 tags: [grim]
 first_lines: |

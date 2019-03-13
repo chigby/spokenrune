@@ -4,7 +4,7 @@ created_at: 2013-06-21T17:43:26-0400
 title: Break, Break, Break
 author: Lord Alfred Tennyson
 filename: break-break-break
-image_url: http://nullsurface.com/images/bbb-small.jpg
+image_url: /img/readings/bbb-small.jpg
 duration: "1:15"
 tags: [classical-greats, elegiac]
 first_lines: |

@@ -4,7 +4,7 @@ created_at: 2010-12-12
 title: Nyarlathotep
 author: H. P. Lovecraft
 filename: nyarlathotep
-image_url: http://farm1.static.flickr.com/40/120749218_f28cdb61d8_z.jpg
+image_url: /img/readings/nyarlathotep.jpg
 duration: "9:21"
 tags: [prose, otherworldly, enigmatic]
 first_lines: |

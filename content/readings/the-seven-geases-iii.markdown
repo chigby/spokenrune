@@ -4,7 +4,7 @@ created_at: 2011-01-28
 title: The Seven Geases, Part III
 author: Clark Ashton Smith
 filename: seven-geases-3
-image_url: http://nullsurface.com/images/seven-geases-3.jpg
+image_url: /img/readings/seven-geases-3.jpg
 duration: "4:31"
 tags: [prose]
 first_lines: |
