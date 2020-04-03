@@ -42,7 +42,7 @@
     <header>
     <a class="logo" href="/"><img src="/img/tsr.png"></a>
     <div class="extras">
-      <%= ext_link('<img src="/img/rss-25.png">', @site.config[:feedburner_url], :title => 'Subscribe via RSS') %>
+      <%= link_to('<img src="/img/rss-25.png">', "/atom.xml", :title => 'Subscribe via RSS') %>
       <%= ext_link('<img src="/img/itunes.png">', @site.config[:itunes_url], :title => 'Add the podcast in iTunes') %>
     </div>
     </header>
@@ -54,7 +54,7 @@
   <footer id="site-footer">
       <h2><i>The Spoken Rune</i> is a collection of verse and prose read aloud.</h2>
       <ul>
-        <li><%= ext_link('Subscribe via RSS', @site.config[:feedburner_url], :title => 'Subscribe via RSS') %></li>
+        <li><%= link_to('Subscribe via RSS', "/atom.xml", :title => 'Subscribe via RSS') %></li>
         <li><%= ext_link('Add the podcast in iTunes', @site.config[:itunes_url], :title => 'Add the podcast in iTunes') %></li>
       </ul>
 
@@ -65,7 +65,6 @@
         <ul>
           <li><a href="mailto:<%= @site.config[:author_email] %>">Email</a></li>
           <li><%= ext_link('Twitter', "http://twitter.com/#{@site.config[:author_twitter]}", :title => 'Twitter') %></li>
-          <li><%= ext_link('Google+', @site.config[:author_gplus], :title => 'Google Plus') %></li>
           <li><%= ext_link('Soundcloud', @site.config[:soundcloud_url], :title => 'Soundcloud') %></li>
         </ul>
       </p>
