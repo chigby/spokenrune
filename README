@@ -1,1 +1,17 @@
 Spoken Rune website.
+
+Howto:
+
+1. Install
+
+gem_home .
+bundle install (if bundler is not installed, install it "globally" with "gem_home - ; gem install bundler")
+If there are errors, remove Gemfile.lock, it was possibly created with another version of bundler an that is causing problems.
+
+2. Run
+
+nanoc compile && nanoc view
+
+3. Deploy
+
+aws s3 sync --acl public-read --sse --delete output s3://www.spokenrune.com
