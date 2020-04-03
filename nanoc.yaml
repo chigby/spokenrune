@@ -78,7 +78,7 @@ watcher:
   notify_on_compilation_failure: true
 
 title: "The Spoken Rune"
-base_url: "http://spokenrune.com"
+base_url: "http://www.spokenrune.com"
 author_name: "Cameron Higby-Naquin"
 author_email: "me@chigby.org"
 author_twitter: "nullsurface"
