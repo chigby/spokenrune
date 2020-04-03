@@ -48,9 +48,10 @@ def authors(lower='a', upper='z')
   end
 end
 
-def s3_url(filename)
-  "http://s3.amazonaws.com/spokenrune/#{filename}.mp3"
+def s3_url(filename, extension="mp3")
+  "http://spokenrune.s3.amazonaws.com/#{filename}.#{extension}"
 end
+
 
 def apostrophize(s)
   s.gsub("'", '&#8217;')

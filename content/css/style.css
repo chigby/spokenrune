@@ -250,6 +250,10 @@ header a {
   text-decoration: underline;
 }
 
+.basic-audio {
+  width: 90%;
+}
+
 .player {
     cursor: default;
     background: url(/img/player-550p.png) no-repeat;

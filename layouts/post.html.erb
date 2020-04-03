@@ -1,6 +1,10 @@
 <%= render 'nav' %>
 
 <article>
+    <audio controls class="basic-audio">
+        <source src="<%= s3_url @item[:filename] %>" type="audio/mp3">
+        <source src="<%= s3_url @item[:filename], "ogg" %>" type="audio/ogg">
+    </audio>
   <p class="download">
     <a href="<%= s3_url @item[:filename] %>" id="download">
       <img src="/img/download.png">
@@ -21,19 +25,4 @@
        </ul>
      <% end %>
   </div>
-
-  <script defer="defer" type="text/javascript">
-    $(document).ready( function () {
-    var cues = {
-    <% if @item[:cues] %>
-    <% @item[:cues].each do |cue| %>
-        '{{cue[0]}}': '{{cue[1]}}',
-    <% end %>
-    <% end %>
-    }
-
-    createPlayer("<%= @item[:filename] %>", cues) // Inside the anonymous function we are cool.
-    });
-
-  </script>
 </article>
